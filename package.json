@@ -2,11 +2,11 @@
   "name": "pluto",
   "version": "1.0.0",
   "description": "A multifunction discord bot",
-  "main": "bot/bot.js",
+  "main": "bot/pluto.js",
   "type": "module",
   "dependencies": {
-    "discord.js": "^12.3.1",
-    "discord.js-commando": "github:discordjs/commando",
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.4.1",
     "sqlite": "^4.0.15"
   },
   "devDependencies": {

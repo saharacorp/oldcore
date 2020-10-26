@@ -3,6 +3,7 @@
 
 // Define necessary imports & variables
 // @ts-ignore
+/*
 import Discord from "discord.js";
 import config from "./config.js";
 import Commando from "discord.js-commando";
@@ -18,7 +19,6 @@ client.registry
     .registerDefaultTypes()
     .registerDefaultGroups()
     .registerDefaultCommands()
-    .registerCommandsIn(path.join(process.cwd(), "bot/modules/commands"));
 
 // On start of bot
 client.once("ready", () => {
@@ -37,3 +37,11 @@ client.once("ready", () => {
 });
 
 client.login(config.token);
+
+*/
+import BotInstance from "./BotInstance.js";
+import config from "./config.js";
+
+const pluto = new BotInstance.Pluto(config.token);
+
+pluto.start();
