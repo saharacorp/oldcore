@@ -1,9 +1,8 @@
 {
-    "compilerOptions": {
-        "module": "esnext",
-        "target": "esnext",
-        "watch": true,
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true
-    }
+	"include": [
+		"./src/**/*.ts",
+		"configs.ts",
+		"mod.ts",
+		"deps.ts"
+	]
 }
