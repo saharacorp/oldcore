@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "sourceMap": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "pretty": true,
+    "resolveJsonModule": true
+  },
+
+  "include": [
+    "bot/**/*",
+    "types/**/*"
+  ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
