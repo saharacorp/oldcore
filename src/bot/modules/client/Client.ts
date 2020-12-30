@@ -2,7 +2,7 @@
 // Written by Brendan Lane - https://brndnln.dev/
 
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
-import config from './../../config.js'
+import config from '../../config.js'
 
 export class CustomClient extends AkairoClient {
   commandHandler: CommandHandler
@@ -21,7 +21,7 @@ export class CustomClient extends AkairoClient {
 
     // Command Handler
     this.commandHandler = new CommandHandler(this, {
-      directory: './bot/modules/commands/',
+      directory: './dist/bot/modules/commands/',
       extensions: [
         '.js'
       ],
@@ -32,7 +32,7 @@ export class CustomClient extends AkairoClient {
 
     // Inhibitor Handler
     this.inhibitorHandler = new InhibitorHandler(this, {
-      directory: './bot/modules/inhibitors/',
+      directory: './dist/bot/modules/inhibitors/',
       extensions: [
         '.js'
       ]
