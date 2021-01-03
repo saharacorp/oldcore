@@ -1,4 +1,4 @@
-// Pluto - bot/modules/client/Client.ts
+// Pluto - bot/oob_modules/client/Client.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
@@ -43,7 +43,7 @@ export class CustomClient extends AkairoClient {
 
     // Listener Handler
     this.listenerHandler = new ListenerHandler(this, {
-      directory: './bot/modules/listeners/',
+      directory: './dist/bot/modules/listeners/',
       extensions: [
         '.js'
       ]

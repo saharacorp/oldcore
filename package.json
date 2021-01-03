@@ -2,7 +2,7 @@
   "name": "pluto",
   "version": "1.0.0",
   "description": "A Discord Bot",
-  "main": "src/bot/pluto.js",
+  "main": "dist/start.js",
   "scripts": {
     "test": "npx standard --fix && node .",
     "start": "node .",
