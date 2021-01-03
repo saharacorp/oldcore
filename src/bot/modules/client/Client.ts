@@ -2,7 +2,7 @@
 // Written by Brendan Lane - https://brndnln.dev/
 
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
-import config from '../../config.js'
+import config from '../../config'
 
 export class CustomClient extends AkairoClient {
   commandHandler: CommandHandler
