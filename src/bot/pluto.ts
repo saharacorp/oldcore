@@ -1,3 +1,5 @@
+/* eslint-disable no-void */
+
 // Pluto - bot/pluto.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
@@ -7,7 +9,9 @@ import config from './config.js'
 const client = new CustomClient()
 
 client.on('ready', () => {
+  // @ts-expect-error
   console.log(`[${config.personalization.botName}] Logged in as ${client.user.tag}`)
+  // @ts-expect-error
   switch (client.user.bot) {
     case true:
       console.log(`[${config.personalization.botName}] This user is a bot user!`)
@@ -20,4 +24,4 @@ client.on('ready', () => {
   }
 })
 
-client.login(config.token)
+void client.login(config.token)
