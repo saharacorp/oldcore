@@ -4,4 +4,5 @@
 
        -h --help - Show the help page
           --banner - Sets a custom banner when executing commands
+          --show-banners - Shows all possible banners that are able to be used
        -as --use-admin-site - Enable the administration site
