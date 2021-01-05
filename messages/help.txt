@@ -1,8 +1,5 @@
-
-                           THE PLUTO DISCORD BOT
-       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/
-
        -h --help - Show the help page
           --banner - Sets a custom banner when executing commands
           --show-banners - Shows all possible banners that are able to be used
-       -as --use-admin-site - Enable the administration site
+       -s --use-admin-site - Enable the administration site
+          --rainbow - Makes the banner rainbow (works on --show-banners too)
