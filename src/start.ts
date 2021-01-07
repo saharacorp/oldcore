@@ -5,7 +5,7 @@ import { readFileSync } from 'fs'
 import { getArrayPos } from '@brndnln/jst'
 import { rainbow } from 'colors'
 
-import config from './bot/config'
+import config from './configuration/config'
 import webServer from './oob_modules/web/server'
 import { log, loggerType } from './oob_modules/cli/logger'
 

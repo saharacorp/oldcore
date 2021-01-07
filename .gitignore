@@ -244,4 +244,4 @@ dist
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/node,yarn,intellij,visualstudiocode
-src/bot/config.ts
+src/configuration/config.ts
