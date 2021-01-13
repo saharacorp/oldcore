@@ -2,17 +2,28 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ESNext",
-    "sourceMap": true,
+    "outDir": "dist",
+    "lib": [
+      "ESNext",
+      "ESNext.Array",
+      "ESNext.AsyncIterable",
+      "ESNext.Intl",
+      "ESNext.Symbol",
+      "DOM"
+    ],
+    "sourceMap": false,
+    "inlineSourceMap": true,
     "incremental": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "pretty": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "strictNullChecks": true
   },
 
   "include": [
-    "bot/**/*",
+    "src/**/*",
     "typings/**/*"
   ],
 

@@ -1,8 +1,8 @@
-// Pluto - bot/modules/client/Client.ts
+// Pluto - bot/oob_modules/client/Client.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
-import config from './../../config.js'
+import config from '../../../configuration/config'
 
 export class CustomClient extends AkairoClient {
   commandHandler: CommandHandler
@@ -13,7 +13,7 @@ export class CustomClient extends AkairoClient {
     // Setup custom client
     super({
       // Options for Akairo
-      ownerID: config.ownerid
+      ownerID: config.bot.ownerid
     }, {
       // Options for Discord
       disableMentions: 'everyone'
@@ -21,21 +21,15 @@ export class CustomClient extends AkairoClient {
 
     // Command Handler
     this.commandHandler = new CommandHandler(this, {
-      directory: './bot/modules/commands/',
-      extensions: [
-        '.js'
-      ],
-      prefix: config.prefix,
+      directory: './dist/bot/modules/commands/',
+      prefix: config.bot.prefix,
       allowMention: true
     })
     this.commandHandler.loadAll()
 
     // Inhibitor Handler
     this.inhibitorHandler = new InhibitorHandler(this, {
-      directory: './bot/modules/inhibitors/',
-      extensions: [
-        '.js'
-      ]
+      directory: './dist/bot/modules/inhibitors/'
     })
 
     this.commandHandler.useInhibitorHandler(this.inhibitorHandler)
@@ -43,10 +37,7 @@ export class CustomClient extends AkairoClient {
 
     // Listener Handler
     this.listenerHandler = new ListenerHandler(this, {
-      directory: './bot/modules/listeners/',
-      extensions: [
-        '.js'
-      ]
+      directory: './dist/bot/modules/listeners/'
     })
 
     this.commandHandler.useListenerHandler(this.listenerHandler)

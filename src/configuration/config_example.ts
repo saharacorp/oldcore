@@ -5,9 +5,9 @@ export default {
   // Prefix
   prefix: '.',
   // Owner ID
-  ownerid: '780165433071763458',
+  ownerid: '',
   // Bot token
-  token: 'NzUzNzI5NDk2NzI0Nzk5NTg4.X1qbSw.68Udl_kJfXERQdlIJbmnPuLRjiw',
+  token: '',
   // Bot Personalization
   personalization: {
     botName: 'Pluto',
