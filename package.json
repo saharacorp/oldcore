@@ -15,10 +15,15 @@
   "keywords": [
     "discord"
   ],
-  "author": "brndnln",
+  "author": {
+    "name": "brndnln",
+    "url": "https://brndnln.dev/",
+    "email": "me@brndnln.dev"
+  },
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/brndnln/Pluto/issues"
+    "url": "https://github.com/brndnln/Pluto/issues",
+    "email": "me@brndnln.dev"
   },
   "homepage": "https://github.com/brndnln/Pluto#readme",
   "dependencies": {

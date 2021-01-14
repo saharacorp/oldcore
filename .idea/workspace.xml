@@ -1,121 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504a9fea-5393-4f7b-a6bf-ef66f1daeb72" name="Default Changelist" comment="" />
+    <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript File" />
-        <option value="tsconfig.json" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="trunk" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mMqkmhxRg9hDZTamexTgSKyeyn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1n16gYYVP2CjzfcEmVyqigubWIt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/dist/start.js&#10;D:/Programming/Pluto/src/bot/config.ts" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/start.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VexiLogger" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="D:\Programming\Pluto\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="D:\Programming\Pluto\node_modules\standard" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="D:\JBToolboxInstall\apps\WebStorm\ch-0\203.6682.155\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming\Pluto" />
-      <recent name="D:\Programming\Pluto\dist" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\Pluto\src\configuration" />
-      <recent name="D:\Programming\Pluto" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/dist/start.js">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="start.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="dist/start.js" working-dir="$PROJECT_DIR$">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="504a9fea-5393-4f7b-a6bf-ef66f1daeb72" name="Default Changelist" comment="" />
-      <created>1609313960204</created>
+      <changelist id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="" />
+      <created>1610545367474</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609313960204</updated>
-      <workItem from="1609313977876" duration="481000" />
-      <workItem from="1609314499933" duration="149000" />
-      <workItem from="1609355451187" duration="2442000" />
-      <workItem from="1609379073323" duration="96000" />
-      <workItem from="1609391857853" duration="813000" />
-      <workItem from="1609444951595" duration="16000" />
-      <workItem from="1609445004045" duration="430000" />
-      <workItem from="1609475803192" duration="451000" />
-      <workItem from="1609476294662" duration="3559000" />
-      <workItem from="1609537296031" duration="7327000" />
-      <workItem from="1609635814287" duration="5754000" />
-      <workItem from="1609653684497" duration="650000" />
-      <workItem from="1609683447237" duration="29000" />
-      <workItem from="1609683530791" duration="173000" />
-      <workItem from="1609683750783" duration="18000" />
-      <workItem from="1609701811227" duration="7000" />
-      <workItem from="1609701834318" duration="5645000" />
-      <workItem from="1609725472401" duration="4257000" />
-      <workItem from="1609768511590" duration="6508000" />
-      <workItem from="1609783467762" duration="13748000" />
-      <workItem from="1609807279636" duration="2746000" />
-      <workItem from="1609861179652" duration="3569000" />
-      <workItem from="1609872563490" duration="616000" />
-      <workItem from="1609889524800" duration="49000" />
-      <workItem from="1610338857293" duration="2173000" />
-      <workItem from="1610341089488" duration="716000" />
-      <workItem from="1610544422596" duration="553000" />
+      <updated>1610545367474</updated>
+      <workItem from="1610545371248" duration="23000" />
+      <workItem from="1610545404851" duration="2476000" />
+      <workItem from="1610593565510" duration="1888000" />
     </task>
     <servers />
   </component>
@@ -133,9 +69,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
