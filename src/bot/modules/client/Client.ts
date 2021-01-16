@@ -27,6 +27,7 @@ export class CustomClient extends AkairoClient {
     })
     this.commandHandler.loadAll()
 
+    /*
     // Inhibitor Handler
     this.inhibitorHandler = new InhibitorHandler(this, {
       directory: './dist/bot/modules/inhibitors/'
@@ -42,5 +43,6 @@ export class CustomClient extends AkairoClient {
 
     this.commandHandler.useListenerHandler(this.listenerHandler)
     this.listenerHandler.loadAll()
+     */
   }
 }

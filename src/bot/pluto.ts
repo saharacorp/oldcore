@@ -5,23 +5,27 @@
 
 import { CustomClient } from './modules/client/Client.js'
 import config from '../configuration/config.js'
+import { log, loggerType } from '../oob_modules/cli/logger'
 
 const client = new CustomClient()
 
 client.on('ready', () => {
   // @ts-expect-error
-  console.log(`[${config.bot.personalization.botName}] Logged in as ${client.user.tag}`)
+  log(loggerType.OK, `Logged in as ${client.user.tag}`)
   // @ts-expect-error
   switch (client.user.bot) {
     case true:
-      console.log(`[${config.bot.personalization.botName}] This user is a bot user!`)
+      log(loggerType.EXTENSION, 'This user is a bot user')
       break
     case false:
-      console.log(`[${config.bot.personalization.botName}] This user is not a bot user!`)
+      log(loggerType.EXTENSION, 'This user is not a bot user')
       break
     default:
-      console.log(`[${config.bot.personalization.botName}] Could not tell weather this user was a bot user or not!`)
+      log(loggerType.EXTENSION, 'Couldn\'t tell whether this user is a bot user or not')
+      break
   }
 })
 
-void client.login(config.bot.token)
+export default function start (): void {
+  void client.login(config.bot.token)
+}

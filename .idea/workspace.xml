@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/messages/help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/pluto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/web/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/web/server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +17,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n16gYYVP2CjzfcEmVyqigubWIt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +54,11 @@
     <property name="ts.external.directory.path" value="D:\JBToolboxInstall\apps\WebStorm\ch-0\203.6682.155\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Pluto\src\bot\modules" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,8 +69,22 @@
       <updated>1610545367474</updated>
       <workItem from="1610545371248" duration="23000" />
       <workItem from="1610545404851" duration="2476000" />
-      <workItem from="1610593565510" duration="1888000" />
+      <workItem from="1610593565510" duration="2294000" />
+      <workItem from="1610651019355" duration="2075000" />
+      <workItem from="1610724330546" duration="155000" />
+      <workItem from="1610725795640" duration="57000" />
+      <workItem from="1610725877624" duration="1955000" />
+      <workItem from="1610742786283" duration="7665000" />
+      <workItem from="1610763164843" duration="6806000" />
     </task>
+    <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
+      <created>1610604471262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610604471262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +101,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Sync with local (Main PC)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Sync with local (Main PC)" />
   </component>
 </project>

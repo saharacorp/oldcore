@@ -3,3 +3,4 @@
           --show-banners - Shows all possible banners that are able to be used
        -s --use-admin-site - Enable the administration site
           --rainbow - Makes the banner rainbow (works on --show-banners too)
+          --no-start - Launch the bot software, but do not login to the bot

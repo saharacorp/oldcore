@@ -13,7 +13,8 @@ app.get('/', (req, res) => {
 
 export default function startServer (port: number): void {
   app.listen(port, () => {
-    log(loggerType.OK, `Webserver started at https://localhost:${port}`)
-    log(loggerType.EXTENSION, `Local IP: ${ip.address()}`)
+    log(loggerType.OK, `Webserver started at http://localhost:${port}/`)
+    // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+    log(loggerType.EXTENSION, `Local IP: http://${ip.address()}:${port}/`)
   })
 }
