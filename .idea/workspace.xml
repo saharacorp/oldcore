@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/messages/help.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/pluto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/web/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/web/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/interfaces/Interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/interfaces/Interfaces.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VexiLogger" />
+    <property name="last_opened_file_path" value="$USER_HOME$/powercord/src/Powercord/themes/nordcord" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,7 +43,7 @@
     <property name="node.js.selected.package.standard" value="D:\Programming\Pluto\node_modules\standard" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="D:\JBToolboxInstall\apps\WebStorm\ch-0\203.6682.155\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,7 +68,14 @@
       <workItem from="1610725795640" duration="57000" />
       <workItem from="1610725877624" duration="1955000" />
       <workItem from="1610742786283" duration="7665000" />
-      <workItem from="1610763164843" duration="6806000" />
+      <workItem from="1610763164843" duration="7862000" />
+      <workItem from="1610819599627" duration="5401000" />
+      <workItem from="1610825603786" duration="79000" />
+      <workItem from="1610825694799" duration="3914000" />
+      <workItem from="1610838645041" duration="1270000" />
+      <workItem from="1610847444558" duration="46000" />
+      <workItem from="1610904665752" duration="330000" />
+      <workItem from="1610946176341" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610604471262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add embed code. Bot will now start as well.">
+      <created>1610781887423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610781887423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Sync with local (Main PC)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Sync with local (Main PC)" />
+    <MESSAGE value="Add embed code. Bot will now start as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add embed code. Bot will now start as well." />
   </component>
 </project>

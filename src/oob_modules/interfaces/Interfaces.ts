@@ -1,6 +1,8 @@
 // Pluto - src/oob_modules/interfaces/Interfaces.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
+import { StringResolvable, ColorResolvable } from 'discord.js'
+
 interface Configuration {
   bot: {
     prefix: string
@@ -22,19 +24,56 @@ interface Configuration {
   }
 }
 
+interface EmbedField {
+  name: StringResolvable
+  value: StringResolvable
+  inline?: boolean
+}
+
 interface Embed {
-  title: string
-  description?: string
-  color?: string
+  title: StringResolvable
+  description?: StringResolvable
+  color?: ColorResolvable
   author?: {
-    name: string
+    name: StringResolvable
     link?: string
     image?: string
   }
   footer?: {
-    text: string
+    text: StringResolvable
     image?: string
   }
+  thumbnail?: string
+  image?: string
+  url?: string
+  files?: string[]
+  fields?: [
+    EmbedField,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?,
+    EmbedField?
+  ]
 }
 
 export {
