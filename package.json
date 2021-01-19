@@ -29,6 +29,7 @@
   "dependencies": {
     "@brndnln/jst": "^1.1.1",
     "colors": "^1.4.0",
+    "commander": "^7.0.0",
     "discord-akairo": "^8.1.0",
     "discord.js": "^12.5.1",
     "express": "^4.17.1",
