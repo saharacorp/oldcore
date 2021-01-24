@@ -2,19 +2,26 @@
 // Written by Brendan Lane - https://brndnln.dev/
 
 export default {
-  // Prefix
-  prefix: '.',
-  // Owner ID
-  ownerid: '',
-  // Bot token
-  token: '',
-  // Bot Personalization
-  personalization: {
-    botName: 'Pluto',
-    embed: {
-      name: '',
-      image: '',
-      link: ''
+  bot: {
+    // Prefix
+    prefix: '.',
+    // Owner ID
+    ownerid: '',
+    // Bot token
+    token: '',
+    // Bot Personalization
+    personalization: {
+      botName: 'Pluto',
+      embed: {
+        name: '',
+        image: '',
+        link: ''
+      }
     }
+  },
+  adminSite: {
+    port: 8000,
+    username: 'admin',
+    password: 'admin'
   }
 }
