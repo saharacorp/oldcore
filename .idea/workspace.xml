@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/cli/handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,9 @@
       <workItem from="1610946176341" duration="26000" />
       <workItem from="1610996608456" duration="699000" />
       <workItem from="1611329294738" duration="1189000" />
-      <workItem from="1611453853095" duration="922000" />
+      <workItem from="1611453853095" duration="3392000" />
+      <workItem from="1611465684564" duration="536000" />
+      <workItem from="1611471854800" duration="3141000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610781887423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sync with main PC">
+      <created>1611455104868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611455104868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Sync with local (Main PC)" />
     <MESSAGE value="Add embed code. Bot will now start as well." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add embed code. Bot will now start as well." />
+    <MESSAGE value="Sync with main PC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sync with main PC" />
   </component>
 </project>
