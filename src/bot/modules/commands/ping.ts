@@ -1,4 +1,5 @@
 import { Command } from 'discord-akairo'
+import { genEmbed } from '../utilities/EmbedGenerator'
 
 class PingCommand extends Command {
   constructor () {
@@ -8,7 +9,12 @@ class PingCommand extends Command {
   }
 
   exec (message): any {
-    return message.reply('Pong!')
+    return message.reply(genEmbed({
+      title: 'Test',
+      author: {
+        name: 'asd'
+      }
+    }))
   }
 }
 

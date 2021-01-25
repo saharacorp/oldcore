@@ -4,7 +4,9 @@
 import { FileOptions, MessageAttachment } from 'discord.js'
 
 type DiscordEmbedFile = FileOptions | string | MessageAttachment
+type DiscordEmbedTime = Date | boolean
 
 export {
-  DiscordEmbedFile
+  DiscordEmbedFile,
+  DiscordEmbedTime
 }

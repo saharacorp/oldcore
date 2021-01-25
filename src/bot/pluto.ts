@@ -27,5 +27,9 @@ client.on('ready', () => {
 })
 
 export default function start (): void {
-  void client.login(config.bot.token)
+  if (config.devOptions.canary) {
+    void client.login(config.bot.canaryToken)
+  } else {
+    void client.login(config.bot.token)
+  }
 }

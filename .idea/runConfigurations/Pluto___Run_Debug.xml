@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Pluto | Run Debug" type="NodeJSConfigurationType" path-to-js-file="out/debug/start.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>

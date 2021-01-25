@@ -1,7 +1,8 @@
 // Pluto - src/oob_modules/interfaces/Interfaces.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
-import { StringResolvable, ColorResolvable } from 'discord.js'
+import { StringResolvable, ColorResolvable, EmbedFieldData } from 'discord.js'
+import { DiscordEmbedFile, DiscordEmbedTime } from '../types/Types'
 
 interface Configuration {
   bot: {
@@ -24,12 +25,6 @@ interface Configuration {
   }
 }
 
-interface EmbedField {
-  name: StringResolvable
-  value: StringResolvable
-  inline?: boolean
-}
-
 interface Embed {
   title: StringResolvable
   description?: StringResolvable
@@ -46,33 +41,34 @@ interface Embed {
   thumbnail?: string
   image?: string
   url?: string
-  files?: string[]
+  files?: DiscordEmbedFile[]
+  timestamp?: DiscordEmbedTime
   fields?: [
-    EmbedField,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?,
-    EmbedField?
+    EmbedFieldData,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?,
+    EmbedFieldData?
   ]
 }
 

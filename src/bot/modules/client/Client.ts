@@ -4,6 +4,14 @@
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
 import config from '../../../configuration/config'
 
+let cmdDir
+
+if (config.devOptions.debugBuild) {
+  cmdDir = './out/debug/bot/modules/commands/'
+} else {
+  cmdDir = './out/release/bot/modules/commands/'
+}
+
 export class CustomClient extends AkairoClient {
   commandHandler: CommandHandler
   inhibitorHandler: InhibitorHandler
@@ -21,7 +29,7 @@ export class CustomClient extends AkairoClient {
 
     // Command Handler
     this.commandHandler = new CommandHandler(this, {
-      directory: './dist/bot/modules/commands/',
+      directory: cmdDir,
       prefix: config.bot.prefix,
       allowMention: true
     })
