@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/ping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/ping.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot/modules/utilities/EmbedGenerator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/utilities/EmbedGenerator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/pluto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/cli/arguments/argumentHandler.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oob_modules/interfaces/Interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/interfaces/Interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oob_modules/types/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/types/Types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -36,6 +35,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -52,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/release/start.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -64,7 +67,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Programming\Pluto\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -73,15 +76,16 @@
       <recent name="D:\Programming\Pluto\scripts\build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Pluto\src\oob_modules\cli\arguments" />
       <recent name="D:\Programming\Pluto\src\bot\modules" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Pluto | Build Debug">
     <list>
-      <item itemvalue="Node.js.Pluto | Run Release" />
-      <item itemvalue="Node.js.Pluto | Run Debug" />
       <item itemvalue="Node.js.Pluto | Build Debug" />
       <item itemvalue="Node.js.Pluto | Build Release" />
+      <item itemvalue="Node.js.Pluto | Run Debug" />
+      <item itemvalue="Node.js.Pluto | Run Release" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,7 +118,15 @@
       <workItem from="1611465684564" duration="536000" />
       <workItem from="1611471854800" duration="3528000" />
       <workItem from="1611522975089" duration="3627000" />
-      <workItem from="1611542471018" duration="8596000" />
+      <workItem from="1611542471018" duration="8912000" />
+      <workItem from="1611588612901" duration="9146000" />
+      <workItem from="1611604517162" duration="2038000" />
+      <workItem from="1611623624645" duration="5696000" />
+      <workItem from="1611780377531" duration="6140000" />
+      <workItem from="1611805200233" duration="722000" />
+      <workItem from="1611806163802" duration="5000" />
+      <workItem from="1611810712641" duration="3213000" />
+      <workItem from="1611879347503" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -137,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611455104868</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sync with local">
+      <created>1611555755961</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611555755961</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +179,7 @@
     <MESSAGE value="Add embed code. Bot will now start as well." />
     <MESSAGE value="Sync with main PC" />
     <MESSAGE value="Change out directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change out directory" />
+    <MESSAGE value="Sync with local" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sync with local" />
   </component>
 </project>

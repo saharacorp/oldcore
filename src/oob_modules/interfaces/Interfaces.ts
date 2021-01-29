@@ -43,36 +43,17 @@ interface Embed {
   url?: string
   files?: DiscordEmbedFile[]
   timestamp?: DiscordEmbedTime
-  fields?: [
-    EmbedFieldData,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?,
-    EmbedFieldData?
-  ]
+  fields?: EmbedFieldData[]
+}
+
+interface CliCommand {
+  command: string
+  description: string
+  aliases: string[]
 }
 
 export {
   Configuration,
-  Embed
+  Embed,
+  CliCommand
 }

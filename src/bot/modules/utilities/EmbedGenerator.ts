@@ -21,9 +21,30 @@ function genEmbed (config: Embed): MessageEmbed {
   if (config.author !== undefined) {
     embedGen.setAuthor(config.author.name, config.author.image, config.author.link)
   }
-
   if (config.footer !== undefined) {
     embedGen.setFooter(config.footer.text, config.footer.image)
+  }
+  if (config.thumbnail !== undefined) {
+    embedGen.setThumbnail(config.thumbnail)
+  }
+  if (config.image !== undefined) {
+    embedGen.setImage(config.image)
+  }
+  if (config.url !== undefined) {
+    embedGen.setURL(config.url)
+  }
+  if (config.files !== undefined) {
+    embedGen.attachFiles(config.files)
+  }
+  if (config.timestamp !== undefined && config.timestamp !== false) {
+    if (config.timestamp === true) {
+      embedGen.setTimestamp(Date.now())
+    } else {
+      embedGen.setTimestamp(config.timestamp)
+    }
+  }
+  if (config.fields !== undefined) {
+    embedGen.addFields(config.fields)
   }
   // Return generated embed
   return embedGen
