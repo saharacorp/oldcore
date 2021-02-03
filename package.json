@@ -4,23 +4,27 @@
   "description": "A Discord Bot",
   "main": "out/release/start.js",
   "scripts": {
-    "test": "npx standard --fix && node .",
+    "test": "echo \"[Pluto] There is no current testing script\"",
     "start": "node .",
-    "build": "tsc && npx standard --fix"
+    "start:debug": "node ./out/debug/start.js",
+    "build:debug": "yarn ts-standard --fix; yarn tsc --outDir out/debug",
+    "build": "yarn ts-standard --fix; yarn tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brndnln/Pluto.git"
   },
   "keywords": [
-    "discord"
+    "discord",
+    "bot",
+    "pluto"
   ],
   "author": {
     "name": "brndnln",
     "url": "https://brndnln.dev/",
     "email": "me@brndnln.dev"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/brndnln/Pluto/issues",
     "email": "me@brndnln.dev"
@@ -32,6 +36,7 @@
     "commander": "^7.0.0",
     "discord-akairo": "^8.1.0",
     "discord.js": "^12.5.1",
+    "enquirer": "^2.3.6",
     "express": "^4.17.1",
     "ip": "^1.1.5",
     "pkg": "^4.4.9",
@@ -39,13 +44,6 @@
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
-    "@typescript-eslint/eslint-plugin": "^4.8.2",
-    "@typescript-eslint/parser": "^4.8.2",
-    "eslint": "^7.14.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
     "standard": "^16.0.3",
     "ts-standard": "^10.0.0"
   }
