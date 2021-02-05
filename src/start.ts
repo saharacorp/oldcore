@@ -8,6 +8,7 @@ import config from './configuration/config'
 import webServer from './oob_modules/web/server'
 import { log, loggerType } from './oob_modules/cli/logger'
 import Pluto from './bot/pluto'
+import shellHandler from './oob_modules/cli/shell/handler'
 
 const args = process.argv.slice(2)
 let argPos: number
@@ -96,4 +97,13 @@ if (args.includes('-s') || args.includes('--use-admin-site')) {
 if (!args.includes('--no-start')) {
   log(loggerType.INFO, 'Starting bot... Please wait...')
   Pluto()
+}
+
+if (!args.includes('--no-shell')) {
+  try {
+    shellHandler()
+  } catch (e) {
+    log(loggerType.FAILED, 'Shell failed to spawn')
+    console.error(e)
+  }
 }
