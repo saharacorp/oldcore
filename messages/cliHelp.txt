@@ -1,0 +1,2 @@
+help - Displays this help message
+close - Closes the terminal

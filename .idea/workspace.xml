@@ -4,7 +4,6 @@
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/shell/handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/cli/shell/handler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +135,8 @@
       <workItem from="1612332952067" duration="4014000" />
       <workItem from="1612360051957" duration="7613000" />
       <workItem from="1612474556932" duration="19000" />
+      <workItem from="1612573337196" duration="7120000" />
+      <workItem from="1612899456278" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -199,17 +200,6 @@
     <MESSAGE value="Start on cli-based command handler" />
     <MESSAGE value="Change package manager, remove ESLint, and start CLI Handler" />
     <option name="LAST_COMMIT_MESSAGE" value="Change package manager, remove ESLint, and start CLI Handler" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/start.ts</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
