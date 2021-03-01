@@ -2,7 +2,7 @@
 // Written by Brendan Lane - https://brndnln.dev/
 
 import { readFileSync } from 'fs'
-import { getArrayPos, rainbow } from '@brndnln/jst'
+import { getArrayPos, rainbow } from './oob_modules/misc/jst'
 
 import config from './configuration/config'
 import webServer from './oob_modules/web/server'
@@ -36,7 +36,6 @@ if (args.includes('--show-banners')) {
   console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
   console.log('\n       List of all possible banners:\n')
   banners.forEach(value => {
-    // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
     bannerPos = getArrayPos(value, banners) + 1
     console.log(`       [${bannerPos.toString()} of ${banners.length}] ${value}:`)
     if (args.includes('--rainbow')) {
@@ -99,11 +98,6 @@ if (!args.includes('--no-start')) {
   Pluto()
 }
 
-if (!args.includes('--no-shell')) {
-  try {
-    shellHandler()
-  } catch (e) {
-    log(loggerType.FAILED, 'Shell failed to spawn')
-    console.error(e)
-  }
+if (config.devOptions.cliEnable) {
+  void shellHandler()
 }

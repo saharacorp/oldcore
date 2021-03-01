@@ -1,4 +1,4 @@
-// Pluto - bot/configuration/config.ts
+// Pluto - src/configuration/config.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
 import { bold, red, gray } from 'colors'
@@ -7,7 +7,7 @@ export default {
   // CLI Configuration
   cli: {
     version: '1.3.8',
-		prompt: `${bold(`${red('(local)')} ${gray('$ » ')}`)}`
+    prompt: `${bold(`${red('(local)')} ${gray('$ » ')}`)}`
   },
   // Bot Configuration
   bot: {
@@ -39,5 +39,7 @@ export default {
   // Development Options (do not touch unless you know what you are doing)
   devOptions: {
     debugBuild: false,
-    canary: false
+    canary: false,
+    cliEnable: false
   }
+}
