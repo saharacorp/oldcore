@@ -1,5 +1,3 @@
-/* eslint-disable no-void */
-
 // Pluto - bot/pluto.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
@@ -32,4 +30,8 @@ export default function start (): void {
   } else {
     void client.login(config.bot.token)
   }
+}
+
+export {
+  client
 }

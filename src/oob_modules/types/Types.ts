@@ -5,8 +5,12 @@ import { FileOptions, MessageAttachment } from 'discord.js'
 
 type DiscordEmbedFile = FileOptions | string | MessageAttachment
 type DiscordEmbedTime = Date | boolean | number
+type DiscordUserStatus = 'online' | 'idle' | 'dnd' | 'invisible'
+type DiscordUserPresence = 'playing' | 'streaming' | 'listening' | 'watching' | 'competing'
 
 export {
   DiscordEmbedFile,
-  DiscordEmbedTime
+  DiscordEmbedTime,
+  DiscordUserPresence,
+  DiscordUserStatus
 }

@@ -17,15 +17,15 @@ export default async function shellHandler () {
       case 'close':
         log(loggerType.INFO, 'Closing CLI prompt...')
         rl.close()
-				break
+        break
 
-			case 'help':
-				console.log(readFileSync('./messages/cliHelp.txt', { encoding: "utf-8" }))
-				break
+      case 'help':
+        console.log(readFileSync('./messages/cliHelp.txt', { encoding: 'utf-8' }))
+        break
     }
   })
 
-	rl.on("close", () => {
-		log(loggerType.OK, 'CLI prompt closed')
-	})
+  rl.on('close', () => {
+    log(loggerType.OK, 'CLI prompt closed')
+  })
 }
