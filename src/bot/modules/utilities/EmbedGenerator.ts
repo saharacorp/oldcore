@@ -4,6 +4,7 @@
 // Import Necessary Libraries
 import { MessageEmbed } from 'discord.js'
 import { Embed } from '../../../oob_modules/interfaces/Interfaces'
+import botConfig from '../../../configuration/config'
 
 // Start of module
 
@@ -17,6 +18,8 @@ function genEmbed (config: Embed): MessageEmbed {
   }
   if (config.color !== undefined) {
     embedGen.setColor(config.color)
+  } else {
+  	embedGen.setColor(botConfig.bot.personalization.embed.defaultColors.normal)
   }
   if (config.author !== undefined) {
     embedGen.setAuthor(config.author.name, config.author.image, config.author.link)

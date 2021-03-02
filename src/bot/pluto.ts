@@ -22,6 +22,8 @@ client.on('ready', () => {
       log(loggerType.EXTENSION, 'Couldn\'t tell whether this user is a bot user or not')
       break
   }
+  // @ts-expect-error
+  client.user.setPresence(config.bot.presenceData)
 })
 
 export default function start (): void {

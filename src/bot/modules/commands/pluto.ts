@@ -1,3 +1,6 @@
+// Pluto - src/bot/modules/commands/pluto.ts
+// Written by Brendan Lane - https://brndnln.dev/
+
 import { Command } from 'discord-akairo'
 import { genEmbed } from '../utilities/EmbedGenerator'
 import { Embed } from '../../../oob_modules/interfaces/Interfaces'
