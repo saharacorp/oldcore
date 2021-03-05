@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/messages/documentation/setActivityCommand.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/ping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/ping.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/utilities/AccountManager.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/utilities/EmbedGenerator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/utilities/EmbedGenerator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/pluto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/types/Types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/types/Types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/documentation/setActivityCommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/messages/documentation/setActivityCommand.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +145,9 @@
       <workItem from="1614577803538" duration="8747000" />
       <workItem from="1614608964529" duration="6021000" />
       <workItem from="1614666654281" duration="5992000" />
+      <workItem from="1614691142155" duration="4318000" />
+      <workItem from="1614743526145" duration="3078000" />
+      <workItem from="1614967088215" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -216,7 +211,8 @@
     <MESSAGE value="Change package manager, remove ESLint, and start CLI Handler" />
     <MESSAGE value="Sync with local" />
     <MESSAGE value="Start the set activity command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start the set activity command" />
+    <MESSAGE value="Update docs for .setactivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update docs for .setactivity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
