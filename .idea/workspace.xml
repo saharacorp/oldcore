@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/documentation/setActivityCommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/messages/documentation/setActivityCommand.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +148,10 @@
       <workItem from="1614666654281" duration="5992000" />
       <workItem from="1614691142155" duration="4318000" />
       <workItem from="1614743526145" duration="3078000" />
-      <workItem from="1614967088215" duration="295000" />
+      <workItem from="1614967088215" duration="526000" />
+      <workItem from="1614967680614" duration="1805000" />
+      <workItem from="1615005452771" duration="11102000" />
+      <workItem from="1615070498556" duration="7377000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
