@@ -48,7 +48,7 @@ export default class SetStatusCommand extends Command {
 
   async exec (message: Message, args): Promise<Message> {
     if (args.type === null) {
-      if (config.bot.personalization.showDocsInError) {
+      if (config.bot.personalization.detailedErrorMessages) {
         return await message.channel.send(genEmbed({
           title: ':x: Error',
           description: 'No arguments have been specified!',
@@ -96,7 +96,7 @@ export default class SetStatusCommand extends Command {
     const type: string = args.type.toLowerCase()
 
     if (!types.includes(type)) {
-      if (config.bot.personalization.showDocsInError) {
+      if (config.bot.personalization.detailedErrorMessages) {
         return await message.channel.send(genEmbed({
           title: ':x: Error',
           description: 'That is not a valid status type!',
@@ -147,7 +147,7 @@ export default class SetStatusCommand extends Command {
         client.user.setStatus('online')
         return await message.channel.send(genEmbed({
           title: ':white_check_mark: Success!',
-          description: 'The bot is now marked as online',
+          description: 'The bot is now marked as `Online`',
           color: config.bot.personalization.embed.defaultColors.success,
           author: {
             name: config.bot.personalization.embed.name,
@@ -166,7 +166,7 @@ export default class SetStatusCommand extends Command {
         client.user.setStatus('idle')
         return await message.channel.send(genEmbed({
           title: ':white_check_mark: Success!',
-          description: 'The bot is now marked as idle',
+          description: 'The bot is now marked as `Idle`',
           color: config.bot.personalization.embed.defaultColors.success,
           author: {
             name: config.bot.personalization.embed.name,
@@ -185,7 +185,7 @@ export default class SetStatusCommand extends Command {
         client.user.setStatus('idle')
         return await message.channel.send(genEmbed({
           title: ':white_check_mark: Success!',
-          description: 'The bot is now marked as idle',
+          description: 'The bot is now marked as `Idle`',
           color: config.bot.personalization.embed.defaultColors.success,
           author: {
             name: config.bot.personalization.embed.name,
@@ -204,7 +204,7 @@ export default class SetStatusCommand extends Command {
         client.user.setStatus('dnd')
         return await message.channel.send(genEmbed({
           title: ':white_check_mark: Success!',
-          description: 'The bot is now marked as do not disturb',
+          description: 'The bot is now marked as `Do not Disturb`',
           color: config.bot.personalization.embed.defaultColors.success,
           author: {
             name: config.bot.personalization.embed.name,
@@ -223,7 +223,7 @@ export default class SetStatusCommand extends Command {
         client.user.setStatus('invisible')
         return await message.channel.send(genEmbed({
           title: ':white_check_mark: Success!',
-          description: 'The bot is now marked as invisible',
+          description: 'The bot is now marked as `Invisible`',
           color: config.bot.personalization.embed.defaultColors.success,
           author: {
             name: config.bot.personalization.embed.name,
@@ -242,7 +242,7 @@ export default class SetStatusCommand extends Command {
         client.user.setStatus('invisible')
         return await message.channel.send(genEmbed({
           title: ':white_check_mark: Success!',
-          description: 'The bot is now marked as invisible',
+          description: 'The bot is now marked as `Invisible`',
           color: config.bot.personalization.embed.defaultColors.success,
           author: {
             name: config.bot.personalization.embed.name,

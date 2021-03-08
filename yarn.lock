@@ -923,7 +923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord.js@npm:^12.5.1":
+"discord.js@npm:latest":
   version: 12.5.1
   resolution: "discord.js@npm:12.5.1"
   dependencies:
@@ -3076,7 +3076,7 @@ __metadata:
     colors: ^1.4.0
     commander: ^7.0.0
     discord-akairo: ^8.1.0
-    discord.js: ^12.5.1
+    discord.js: latest
     enquirer: ^2.3.6
     express: ^4.17.1
     ip: ^1.1.5
@@ -3104,10 +3104,10 @@ __metadata:
   linkType: hard
 
 "prism-media@npm:^1.2.2":
-  version: 1.2.3
-  resolution: "prism-media@npm:1.2.3"
+  version: 1.2.7
+  resolution: "prism-media@npm:1.2.7"
   peerDependencies:
-    "@discordjs/opus": ^0.3.3
+    "@discordjs/opus": ^0.4.0
     ffmpeg-static: ^4.2.7 || ^3.0.0 || ^2.4.0
     node-opus: ^0.3.3
     opusscript: ^0.0.7
@@ -3120,7 +3120,7 @@ __metadata:
       optional: true
     opusscript:
       optional: true
-  checksum: 337cfb80dba36ffb96989b3b6832cf1e46b0706da73ebb3d3de6a6d1429302e318961ee5cc048ea3e997c23c543e950d08a20a89cadc84ec37b2b0a856946397
+  checksum: 19252732bb768df96af341aca3c038f61eb686f78f317ce4d90e3369718f96b8ce4695af5c5046342f0d411d9bb44669fc88e9889727ba71140a205104fecc35
   languageName: node
   linkType: hard
 
@@ -4233,8 +4233,8 @@ typescript@^4.1.3:
   linkType: hard
 
 "ws@npm:^7.3.1":
-  version: 7.4.2
-  resolution: "ws@npm:7.4.2"
+  version: 7.4.4
+  resolution: "ws@npm:7.4.4"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -4243,7 +4243,7 @@ typescript@^4.1.3:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 832efdf1440706058ac04708aa56da951b6e5d10d956e6d01f7a2a32cd3f67acaabea8feb4b578b041a55289e421fc4c48769cbcf02f4d42915eb918c3f7e496
+  checksum: ad08761ed753cdd3f7172e9a9efc7d74e7e196623cace2380e5f74ff0abd16196e03223bd4148a34278dcbc653ee3841994635419281cbf303b3f22c589e2ec4
   languageName: node
   linkType: hard
 

@@ -20,11 +20,30 @@ export default {
     canaryToken: '',
     // Bot Personalization
     personalization: {
+    	// The name of the discord bot
       botName: 'Pluto',
+      // Show detailed error messages (documentation and syntax, error stacks, etc.)
+      detailedErrorMessages: true,
+      // Embed data
       embed: {
+      	// Default discord data
         name: 'Pluto',
         image: 'https://media.discordapp.net/attachments/800944984500600855/803110348852953108/download_31.jpg?width=666&height=666',
-        link: 'https://github.com/brndnln/Pluto'
+        link: 'https://github.com/brndnln/Pluto',
+        // Default color profiles
+        defaultColors: {
+          normal: '#202122',
+          error: '#ca0f0f',
+          success: '#4ff748'
+        }
+      },
+      // Presence data on bot startup
+      presenceData: {
+        activity: {
+          type: 'COMPETING',
+          name: 'the olympic games | .help'
+        },
+        status: 'online'
       }
     }
   },

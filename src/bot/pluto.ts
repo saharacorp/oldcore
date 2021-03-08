@@ -23,7 +23,7 @@ client.on('ready', () => {
       break
   }
   // @ts-expect-error
-  client.user.setPresence(config.bot.presenceData)
+  client.user.setPresence(config.bot.personalization.presenceData)
 })
 
 export default function start (): void {
