@@ -1,13 +1,10 @@
 // Pluto - src/configuration/config.ts
 // Written by Brendan Lane - https://brndnln.dev/
 
-import { bold, red, gray } from 'colors'
-
 export default {
   // CLI Configuration
   cli: {
-    version: '1.3.8',
-    prompt: `${bold(`${red('(local)')} ${gray('$ » ')}`)}`
+    version: '1.3.8'
   },
   // Bot Configuration
   bot: {
@@ -34,7 +31,9 @@ export default {
         defaultColors: {
           normal: '#202122',
           error: '#ca0f0f',
-          success: '#4ff748'
+          success: '#4ff748',
+          invisible: '#2F3136',
+					lightInvisible: '#F2F3F5'
         }
       },
       // Presence data on bot startup
@@ -47,18 +46,9 @@ export default {
       }
     }
   },
-  // Administration Site Options
-  adminSite: {
-    // Port for website
-    port: 8000,
-    // Authentication
-    username: 'admin',
-    password: 'admin'
-  },
   // Development Options (do not touch unless you know what you are doing)
   devOptions: {
     debugBuild: false,
-    canary: false,
-    cliEnable: false
+    canary: false
   }
 }

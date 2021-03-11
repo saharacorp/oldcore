@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bot/modules/utilities/ShutdownHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/setstatus.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/setstatus.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/pluto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/configuration/config_example.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/config_example.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/arguments/argumentHandler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/shell/handler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/web/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="yarn:package.json:typescript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -158,6 +161,14 @@
       <workItem from="1615005452771" duration="11102000" />
       <workItem from="1615070498556" duration="7377000" />
       <workItem from="1615155376343" duration="6369000" />
+      <workItem from="1615243969060" duration="42000" />
+      <workItem from="1615244023423" duration="49000" />
+      <workItem from="1615244082773" duration="41000" />
+      <workItem from="1615244133682" duration="9701000" />
+      <workItem from="1615328022759" duration="1749000" />
+      <workItem from="1615330947959" duration="1753000" />
+      <workItem from="1615417341531" duration="11318000" />
+      <workItem from="1615445465980" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -222,7 +233,8 @@
     <MESSAGE value="Sync with local" />
     <MESSAGE value="Start the set activity command" />
     <MESSAGE value="Update docs for .setactivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update docs for .setactivity" />
+    <MESSAGE value="Finish shutdown command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish shutdown command" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

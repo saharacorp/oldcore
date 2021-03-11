@@ -11,7 +11,8 @@ class PlutoCommand extends Command {
   constructor () {
     super('pluto', {
       aliases: [
-        'pluto'
+        'pluto',
+        'mydadtookmypusheen'
       ]
     })
   }

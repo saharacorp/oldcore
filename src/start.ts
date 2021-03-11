@@ -4,11 +4,8 @@
 import { readFileSync } from 'fs'
 import { getArrayPos, rainbow } from './oob_modules/misc/jst'
 
-import config from './configuration/config'
-import webServer from './oob_modules/web/server'
 import { log, loggerType } from './oob_modules/cli/logger'
 import Pluto from './bot/pluto'
-import shellHandler from './oob_modules/cli/shell/handler'
 
 const args = process.argv.slice(2)
 let argPos: number
@@ -38,7 +35,7 @@ if (args.includes('--show-banners')) {
   banners.forEach(value => {
     bannerPos = getArrayPos(value, banners) + 1
     console.log(`       [${bannerPos.toString()} of ${banners.length}] ${value}:`)
-    if (args.includes('--rainbow')) {
+    if (args.includes('--rainbow') || args.includes('--gaytime')) {
       rainbow(readFileSync(`./messages/banners/${value}.txt`, { encoding: 'utf-8' }))
     } else {
       console.log(readFileSync(`./messages/banners/${value}.txt`, { encoding: 'utf-8' }))
@@ -55,7 +52,7 @@ if (args.includes('--banner')) {
       console.log(` - ${value}`)
     })
     // noinspection DuplicatedCode
-    if (args.includes('--rainbow')) {
+    if (args.includes('--rainbow') || args.includes('--gaytime')) {
       rainbow(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
       rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
     } else {
@@ -64,7 +61,7 @@ if (args.includes('--banner')) {
     }
   } else {
     // noinspection DuplicatedCode
-    if (args.includes('--rainbow')) {
+    if (args.includes('--rainbow') || args.includes('--gaytime')) {
       rainbow(`\n${readFileSync(`./messages/banners/${args[argPos + 1]}.txt`, { encoding: 'utf-8' })}`)
       rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
     } else {
@@ -74,7 +71,7 @@ if (args.includes('--banner')) {
   }
 } else {
   // noinspection DuplicatedCode
-  if (args.includes('--rainbow')) {
+  if (args.includes('--rainbow') || args.includes('--gaytime')) {
     rainbow(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
     rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
   } else {
@@ -88,16 +85,7 @@ if (args.includes('-h') || args.includes('--help')) {
   process.exit(0)
 }
 
-if (args.includes('-s') || args.includes('--use-admin-site')) {
-  log(loggerType.INFO, 'Starting webserver...')
-  webServer(config.adminSite.port)
-}
-
 if (!args.includes('--no-start')) {
   log(loggerType.INFO, 'Starting bot... Please wait...')
   Pluto()
-}
-
-if (config.devOptions.cliEnable) {
-  void shellHandler()
 }
