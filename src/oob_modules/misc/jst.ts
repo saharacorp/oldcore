@@ -1,5 +1,5 @@
 // Pluto - src/oob_modules/misc/jst.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 // Imports
 import lolcatjs from 'lolcatjs'

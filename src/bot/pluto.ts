@@ -1,5 +1,5 @@
 // Pluto - bot/pluto.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 import { CustomClient } from './modules/client/Client.js'
 import config from '../configuration/config.js'

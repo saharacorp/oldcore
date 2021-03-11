@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bot/modules/utilities/ShutdownHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configuration/config_example.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/config_example.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/arguments/argumentHandler.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/logger.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/shell/handler.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/web/server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
-    </list>
+    <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +156,7 @@
       <workItem from="1615328022759" duration="1749000" />
       <workItem from="1615330947959" duration="1753000" />
       <workItem from="1615417341531" duration="11318000" />
-      <workItem from="1615445465980" duration="423000" />
+      <workItem from="1615445465980" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -205,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611902143690</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish shutdown command and remove deprecated modules">
+      <created>1615446168097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615446168097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +229,8 @@
     <MESSAGE value="Start the set activity command" />
     <MESSAGE value="Update docs for .setactivity" />
     <MESSAGE value="Finish shutdown command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish shutdown command" />
+    <MESSAGE value="Finish shutdown command and remove deprecated modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish shutdown command and remove deprecated modules" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

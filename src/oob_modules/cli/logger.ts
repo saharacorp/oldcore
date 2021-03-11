@@ -1,5 +1,5 @@
 // Pluto - src/oob_modules/cli/logger.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 import { green, yellow, red } from 'colors'
 

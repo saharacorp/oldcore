@@ -1,8 +1,8 @@
 // Pluto - src/bot/modules/commands/ping.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'
-import { genEmbed } from '../utilities/EmbedGenerator'
+// import { genEmbed } from '../utilities/EmbedGenerator'
 import { client } from '../../pluto'
 
 class PingCommand extends Command {

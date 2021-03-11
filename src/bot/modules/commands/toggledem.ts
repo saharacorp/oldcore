@@ -1,5 +1,5 @@
 // Pluto - src/bot/modules/commands/toggledem.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'

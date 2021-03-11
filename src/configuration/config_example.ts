@@ -1,5 +1,5 @@
 // Pluto - src/configuration/config.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 export default {
   // CLI Configuration

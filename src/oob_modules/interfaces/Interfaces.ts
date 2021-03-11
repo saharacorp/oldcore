@@ -1,5 +1,5 @@
 // Pluto - src/oob_modules/interfaces/Interfaces.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 import { StringResolvable, ColorResolvable, EmbedFieldData } from 'discord.js'
 import { DiscordEmbedFile, DiscordEmbedTime } from '../types/Types'

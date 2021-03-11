@@ -1,5 +1,5 @@
 // Pluto - src/start.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 import { readFileSync } from 'fs'
 import { getArrayPos, rainbow } from './oob_modules/misc/jst'
@@ -30,7 +30,7 @@ const banners = [
 ]
 
 if (args.includes('--show-banners')) {
-  console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+  console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
   console.log('\n       List of all possible banners:\n')
   banners.forEach(value => {
     bannerPos = getArrayPos(value, banners) + 1
@@ -54,29 +54,29 @@ if (args.includes('--banner')) {
     // noinspection DuplicatedCode
     if (args.includes('--rainbow') || args.includes('--gaytime')) {
       rainbow(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
-      rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+      rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
     } else {
       console.log(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
-      console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+      console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
     }
   } else {
     // noinspection DuplicatedCode
     if (args.includes('--rainbow') || args.includes('--gaytime')) {
       rainbow(`\n${readFileSync(`./messages/banners/${args[argPos + 1]}.txt`, { encoding: 'utf-8' })}`)
-      rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+      rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
     } else {
       console.log(`\n${readFileSync(`./messages/banners/${args[argPos + 1]}.txt`, { encoding: 'utf-8' })}`)
-      console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+      console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
     }
   }
 } else {
   // noinspection DuplicatedCode
   if (args.includes('--rainbow') || args.includes('--gaytime')) {
     rainbow(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
-    rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+    rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
   } else {
     console.log(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
-    console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Brendan Lane - https://brndnln.dev/ https://pluto.rip/\n')
+    console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
   }
 }
 

@@ -1,5 +1,5 @@
 // Pluto - src/bot/modules/utilities/EmbedGenerator.ts
-// Written by Brendan Lane - https://brndnln.dev/
+// Written by Quinn Lane - https://brndnln.dev/
 
 // Import Necessary Libraries
 import { MessageEmbed } from 'discord.js'
