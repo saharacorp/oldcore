@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/cliHelp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,8 @@
       <workItem from="1615328022759" duration="1749000" />
       <workItem from="1615330947959" duration="1753000" />
       <workItem from="1615417341531" duration="11318000" />
-      <workItem from="1615445465980" duration="3230000" />
+      <workItem from="1615445465980" duration="4241000" />
+      <workItem from="1615487356408" duration="3853000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615446520910</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Start work on arguments (again)">
+      <created>1615449526930</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615449526930</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +250,8 @@
     <MESSAGE value="Finish shutdown command and remove deprecated modules" />
     <MESSAGE value="Fix watermark with new name" />
     <MESSAGE value="Fix watermark with new name (and fix unused import in ping.ts)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix watermark with new name (and fix unused import in ping.ts)" />
+    <MESSAGE value="Start work on arguments (again)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start work on arguments (again)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

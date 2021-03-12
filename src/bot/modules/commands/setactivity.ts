@@ -29,7 +29,7 @@ export default class SetActivityCommand extends Command {
         usage: 'setactivity <type> <text> [url]',
         examples: [
           'setactivity playing outside',
-          'setactivity streaming "a chat on discord" https://twitch.tv/brndnln',
+          'setactivity streaming "a chat on discord" https://twitch.tv/quinndoescode',
           'setactivity watching "the trees go by"',
           'setactivity listening "to metal records backwards"',
           'setactivity competing "in a cup-stacking contest"'
