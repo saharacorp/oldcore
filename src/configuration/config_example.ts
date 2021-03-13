@@ -33,7 +33,7 @@ export default {
           error: '#ca0f0f',
           success: '#4ff748',
           invisible: '#2F3136',
-					lightInvisible: '#F2F3F5'
+          lightInvisible: '#F2F3F5'
         }
       },
       // Presence data on bot startup

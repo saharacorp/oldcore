@@ -7,6 +7,9 @@ import { getArrayPos, rainbow } from './oob_modules/misc/jst'
 import { log, loggerType } from './oob_modules/cli/logger'
 import Pluto from './bot/pluto'
 
+import { Command, Option } from 'commander'
+import config from './configuration/config'
+
 const args = process.argv.slice(2)
 let argPos: number
 let bannerPos: number
@@ -29,6 +32,7 @@ const banners = [
   'train'
 ]
 
+/*
 if (args.includes('--show-banners')) {
   console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
   console.log('\n       List of all possible banners:\n')
@@ -89,3 +93,10 @@ if (!args.includes('--no-start')) {
   log(loggerType.INFO, 'Starting bot... Please wait...')
   Pluto()
 }
+*/
+
+const program = new Command()
+program.version(config.cli.version, '-v, --version', 'Shows the version of PlutoCore')
+  .addOption(new Option('--show-banners', 'Shows all the banners that can be used'))
+
+program.parse(process.argv)

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/setactivity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/config_example.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/config_example.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/arguments/ArgumentHandler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="yarn:package.json:typescript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -160,7 +163,10 @@
       <workItem from="1615330947959" duration="1753000" />
       <workItem from="1615417341531" duration="11318000" />
       <workItem from="1615445465980" duration="4241000" />
-      <workItem from="1615487356408" duration="3853000" />
+      <workItem from="1615487356408" duration="4195000" />
+      <workItem from="1615555458358" duration="3756000" />
+      <workItem from="1615597360973" duration="4509000" />
+      <workItem from="1615610089716" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -218,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615449526930</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update twitch in .setactivity examples">
+      <created>1615530149923</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615530149923</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +264,8 @@
     <MESSAGE value="Fix watermark with new name" />
     <MESSAGE value="Fix watermark with new name (and fix unused import in ping.ts)" />
     <MESSAGE value="Start work on arguments (again)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work on arguments (again)" />
+    <MESSAGE value="Update twitch in .setactivity examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update twitch in .setactivity examples" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
