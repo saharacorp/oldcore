@@ -4,10 +4,87 @@
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pnp.js" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/typescript-patch-7a9e6321b3-017af99214.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/releases/yarn-berry.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/releases/yarn-berry.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/toggledem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/toggledem.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@babel-parser-npm-7.12.11-04b8b0bd42-2f650e8e57.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@babel-runtime-npm-7.12.5-b3edb8ee8e-423fb00793.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@babel-types-npm-7.12.12-091a83fdd2-928554396c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/accepts-npm-1.3.7-0dc9de65aa-2686fa30db.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/array-flatten-npm-1.1.1-9d94ad5f1d-de7a056451.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/body-parser-npm-1.19.0-6e177cabfa-18c2a81df5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/byline-npm-5.0.0-dde6edb7d9-84aec9f9db.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/bytes-npm-3.1.0-19c5b15405-c3f64645ef.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/content-disposition-npm-0.5.3-9a9a567e17-8f1f235c04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/content-type-npm-1.0.4-3b1a5ca16b-ff6e19cbf2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/cookie-npm-0.4.0-4b3d629e45-7aaef4b642.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/cookie-signature-npm-1.0.6-93f325f7f0-305054e102.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/depd-npm-1.1.2-b0c8414da7-f45566ff70.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/destroy-npm-1.0.4-a2203e01cb-5a516fc5a8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/ee-first-npm-1.1.1-33f8535b39-ba74f91398.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/encodeurl-npm-1.0.2-f8c8454c41-6ee5fcbcd2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/escape-html-npm-1.0.3-376c22ee74-900a7f2b80.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/escodegen-npm-1.14.3-a4dedc6eeb-548c5a83a8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/etag-npm-1.8.1-54a3b989d9-f18341a3c1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/expand-template-npm-2.0.3-80de959306-d1c08a374a.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/express-npm-4.17.1-6815ee6bf9-c4b470d623.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/finalhandler-npm-1.1.2-55a75d6b53-f2e5b6bfe2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/forwarded-npm-0.1.2-6143c1ba42-568d862ad1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/fresh-npm-0.5.2-ad2bb4c0a2-2f76c8505d.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/from2-npm-2.3.0-bd16dc410b-5f1a9bbff0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/fs-extra-npm-8.1.0-197473387f-056a96d4f5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/http-errors-npm-1.7.2-67163ae1df-8ce4a4af05.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/http-errors-npm-1.7.3-f6dc83b082-563ae4a3f1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/inherits-npm-2.0.3-401e64b080-9488f9433e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/into-stream-npm-5.1.1-648b152399-8734b2451c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/ip-npm-1.1.5-af36318aa6-3ad007368c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/ipaddr.js-npm-1.9.1-19ae7878b4-de15bc7e63.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/jsonfile-npm-4.0.0-10ce3aea15-a40b7b64da.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/levn-npm-0.3.0-48d774b1c2-775861da38.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/media-typer-npm-0.3.0-8674f8f0f5-be1c825782.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/merge-descriptors-npm-1.0.1-615287aaa8-2d2a09eaac.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/methods-npm-1.1.2-92f6fdb39b-450e4ea0fd.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/mime-npm-1.6.0-60ae95038a-d540c24dd3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/ms-npm-2.1.1-5b4fd72c86-81ad38c74d.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/multistream-npm-2.1.1-6fcd3b12d3-e2c61674e7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/negotiator-npm-0.6.2-ba538e167a-4b230bd15f.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/on-finished-npm-2.3.0-4ce92f72c6-362e646082.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/optionator-npm-0.8.3-bc555bc5b7-a5cdced2c9.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/os-tmpdir-npm-1.0.2-e305b0689b-ca158a3c2e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/p-is-promise-npm-3.0.0-a3c472793c-098b193910.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/parseurl-npm-1.3.3-1542397e00-52c9e86cb5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/path-to-regexp-npm-0.1.7-2605347373-342fdb0ca4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/pkg-fetch-npm-2.6.9-5fe7ab3658-dbec501e5c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/pkg-npm-4.4.9-53f27bc728-e59cfa2777.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/prelude-ls-npm-1.1.2-a0daac0886-189c969c92.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/prism-media-npm-1.2.7-70e8939209-19252732bb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/proxy-addr-npm-2.0.6-8fafed6ca5-a7dcfd7025.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/qs-npm-6.7.0-15161a344c-8590470436.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/range-parser-npm-1.2.1-1a470fa390-05074f5b23.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/raw-body-npm-2.4.0-14d9d633af-46dc02f8b4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/regenerator-runtime-npm-0.13.7-41bcbe64ea-6ef567c662.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/request-progress-npm-3.0.0-f79f1c9e67-ea729c9e5e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/send-npm-0.17.1-aad5512679-58e4ab2e07.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/serve-static-npm-1.14.1-a7afb1d3b3-97e8c94ec0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/setprototypeof-npm-1.1.1-706b6318ec-0efed4da5a.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/source-map-npm-0.6.1-1a3621db16-8647829a06.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/statuses-npm-1.5.0-f88f91b2e9-57735269bf.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/stream-meter-npm-1.0.4-3d727492d5-e5882103a2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/throttleit-npm-1.0.0-6cbcfe7b7b-52f0a29c8b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-40e6198424.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/toidentifier-npm-1.0.0-5dad252f90-95720e8a0f.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/type-check-npm-0.3.2-a4a38bb0b6-4e08064531.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/type-is-npm-1.6.18-6dee4d4961-20a3514f1d.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/uid2-npm-0.0.3-f7815612fd-7b0fc54edb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/unique-temp-dir-npm-1.0.0-7ddfa202ba-b21a69f7c6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/universalify-npm-0.1.2-9b22d31d2d-420fc65473.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/unpipe-npm-1.0.0-2ed2a3c2bf-ba244e8bf6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/utils-merge-npm-1.0.1-363bbdfbca-a457956ebc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/vary-npm-1.1.2-b49f70ae63-591f059f72.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/info.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/info.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/inhibitors/blacklist.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/inhibitors/blacklist.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/inhibitors/canary.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/inhibitors/canary.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/pluto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/misc/jst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/misc/jst.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/start.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +131,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.yarnrc.yml&#10;D:/Programming/Pluto/src/configuration/config.ts" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.5.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.2.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.34" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/release/start.js" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -175,6 +252,7 @@
       <workItem from="1615721213305" duration="20000" />
       <workItem from="1615723399527" duration="134000" />
       <workItem from="1615723550716" duration="1204000" />
+      <workItem from="1615744763054" duration="11259000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>

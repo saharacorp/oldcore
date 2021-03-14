@@ -83,6 +83,17 @@ function rainbow (text: string, config?: lolcatConfig): string {
   return lolcatjs.fromString(text)
 }
 
+function datFormat (aSeconds: number) {
+  function pad (s) {
+    return (s < 10 ? '0' : '') + s
+  }
+  const hours = Math.floor(aSeconds / (60 * 60))
+  const minutes = Math.floor(aSeconds % (60 * 60) / 60)
+  const seconds = Math.floor(aSeconds % 60)
+
+  return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
+}
+
 // Bundles
 const ArrayTools = { getArrayPos }
 
@@ -91,5 +102,6 @@ export {
   getArrayPos,
   ArrayTools,
   rainbow,
-  lolcatConfig
+  lolcatConfig,
+  datFormat
 }

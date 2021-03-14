@@ -4,8 +4,11 @@
 import { CustomClient } from './modules/client/Client.js'
 import config from '../configuration/config.js'
 import { log, loggerType } from '../oob_modules/cli/logger'
+import { readFileSync } from 'fs'
 
 const client = new CustomClient()
+
+const pjson = JSON.parse(readFileSync(`${__dirname}/../../../package.json`, { encoding: 'utf-8' }))
 
 client.on('ready', () => {
   // @ts-expect-error
@@ -35,5 +38,6 @@ export default function start (): void {
 }
 
 export {
-  client
+  client,
+  pjson
 }
