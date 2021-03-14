@@ -96,7 +96,12 @@ if (!args.includes('--no-start')) {
 */
 
 const program = new Command()
-program.version(config.cli.version, '-v, --version', 'Shows the version of PlutoCore')
-  .addOption(new Option('--show-banners', 'Shows all the banners that can be used'))
+program
+	.version(config.cli.version, '-v, --version', 'Shows the version of PlutoCore')
+	.addOption(new Option('--banner <banner>', 'Forces a custom banner to be used'))
+	.addOption(new Option('--show-banners', 'Shows all the banners that can be used'))
+	.addOption(new Option('--rainbow, --gaytime', 'Makes the text gay (it turns the text rainbow)').hideHelp())
+	.addOption(new Option('--no-start', 'Do not start the bot, just run the console'))
+	.parse(process.argv)
 
-program.parse(process.argv)
+const options = program.opts()
