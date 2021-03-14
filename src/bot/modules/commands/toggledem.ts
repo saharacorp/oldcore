@@ -14,10 +14,7 @@ class ToggleDEMCommand extends Command {
       category: 'Meta',
       description: {
         content: 'Toggle detailed error messages',
-        usage: 'toggledem',
-        examples: [
-          'toggledem'
-        ]
+        usage: 'toggledem'
       }
     })
   }

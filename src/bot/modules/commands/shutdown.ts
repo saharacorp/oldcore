@@ -20,10 +20,7 @@ export default class ShutdownCommand extends Command {
       ownerOnly: true,
       description: {
         content: 'Full shutdown of the bot',
-        usage: 'shutdown',
-        examples: [
-          'shutdown'
-        ]
+        usage: 'shutdown'
       },
       args: [
         {
