@@ -15,12 +15,12 @@ export default {
     canaryToken: '',
     // Bot Personalization
     personalization: {
-    	// The name of the discord bot
+      // The name of the discord bot
       botName: 'Pluto',
       // Show detailed error messages (documentation and syntax, error stacks, etc.)
       detailedErrorMessages: true,			
       // Social preview image (gets embedded on .info)
-			socialPreviewImage: 'https://cdn.discordapp.com/attachments/820091333153914930/820821505948647434/plutobanner.png',
+      socialPreviewImage: 'https://cdn.discordapp.com/attachments/820091333153914930/820821505948647434/plutobanner.png',
       // Embed data
       embed: {
       	// Default discord data
