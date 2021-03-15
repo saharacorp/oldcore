@@ -9,7 +9,7 @@ Badges provided by [shields.io](https://shields.io/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/quinndoescode/Pluto?label=Project%20Size&logo=github&style=for-the-badge)
 [![Discord](https://img.shields.io/discord/646120437943762944?color=7289DA&label=Support%20Server&logo=discord&style=for-the-badge)](https://invite.gg/thesolarsystem)
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/quinndoescode/Pluto/trunk?color=05fc4f&label=Stable%20Version&style=for-the-badge)
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/quinndoescode/Pluto/development?color=ff0000&label=Development%20Version&style=for-the-badge)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/quinndoescode/Pluto/development?color=ff0000&label=Dev%20Version&style=for-the-badge)
 
 ## Building from source
 Pluto uses Yarn v2 (codename berry) instead of NPM
