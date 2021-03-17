@@ -9,31 +9,36 @@ import config from '../../../configuration/config'
 
 class PlutoCommand extends Command {
   constructor () {
-    super('pluto', {
+    super('plutocore', {
       aliases: [
-        'pluto',
+        'plutocore',
+				'pluto',
         'mydadtookmypusheen'
-      ]
+      ],
+			category: 'Meta',
+			description: {
+      	content: 'Shows that this bot was built on PlutoCore'
+			}
     })
   }
 
   exec (message: Message): any {
     const plutoEmbed: Embed = {
       title: ':new_moon: Pluto',
-      description: 'This bot uses Pluto as a framework',
+      description: 'This bot uses PlutoCore as a framework',
       fields: [
         {
-          name: 'What is Pluto?',
-          value: 'Pluto is a multifunctional discord bot that can also act as a framework for other bots.'
+          name: 'What is Pluto and PlutoCore?',
+          value: 'PlutoCore is a template for discord bots built on Discord Akairo and Discord.js.\nPluto is a multipurpose discord bot built on PlutoCore'
         },
         {
           name: 'How do I know it is not stealing my V-Bucks?',
-          value: 'Simple! The entire project is [open source on GitHub](https://github.com/brndnln/Pluto). You can also click the text on the top of every embed!',
+          value: 'Sadly, you can\'t. Unless it is an official Pluto bot made by <@422415365742788618>, it is impossible to guarantee that the bot is open source software. If it is an offical bot, it will be oss on [GitHub](https://github.com/quinndoescode/Pluto)',
           inline: true
         },
         {
-          name: 'Can I invite pluto into my own server?',
-          value: 'Yes! [Click this to invite me!](https://discord.com/api/oauth2/authorize?client_id=753729496724799588&permissions=8&scope=bot)',
+          name: 'Can I invite Pluto into my own server?',
+          value: 'Yes! [Click this to invite me!](https://pluto.rip)',
           inline: true
         }
       ],
@@ -46,7 +51,8 @@ class PlutoCommand extends Command {
         name: config.bot.personalization.embed.name,
         link: config.bot.personalization.embed.link,
         image: config.bot.personalization.embed.image
-      }
+      },
+      color: config.bot.personalization.embed.defaultColors.normal
     }
 
     return message.channel.send(genEmbed(plutoEmbed))

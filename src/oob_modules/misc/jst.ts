@@ -94,6 +94,14 @@ function datFormat (aSeconds: number) {
   return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
 }
 
+function getHumanReadableDateTime (date?: number) {
+  if (date === undefined) {
+    date = Date.now()
+  }
+
+  return new Date(date).toLocaleString()
+}
+
 // Bundles
 const ArrayTools = { getArrayPos }
 
@@ -103,5 +111,6 @@ export {
   ArrayTools,
   rainbow,
   lolcatConfig,
-  datFormat
+  datFormat,
+  getHumanReadableDateTime
 }

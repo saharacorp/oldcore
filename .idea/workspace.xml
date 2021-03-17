@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/config_example.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/config_example.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/cli/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oob_modules/misc/jst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/misc/jst.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +178,7 @@
       <workItem from="1615723399527" duration="134000" />
       <workItem from="1615723550716" duration="1204000" />
       <workItem from="1615744763054" duration="19585000" />
+      <workItem from="1615899475586" duration="19340000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>

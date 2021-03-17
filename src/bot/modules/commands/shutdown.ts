@@ -8,6 +8,7 @@ import { genEmbed } from '../utilities/EmbedGenerator'
 import ShutdownHandler from '../utilities/ShutdownHandler'
 import config from '../../../configuration/config'
 import { client } from '../../pluto'
+import { getHumanReadableDateTime } from '../../../oob_modules/misc/jst'
 
 export default class ShutdownCommand extends Command {
   constructor () {
@@ -33,7 +34,7 @@ export default class ShutdownCommand extends Command {
   }
 
   async exec (message: Message, args) {
-    log(loggerType.INFO, `${message.author.tag} (${message.author.id}) has executed the shutdown command at!`)
+    log(loggerType.INFO, `${message.author.tag} (${message.author.id}) has executed the shutdown command at ${getHumanReadableDateTime()}!`)
     if (message.content.includes('majorlyfuckoff')) {
       await message.channel.send('awww :(')
     }

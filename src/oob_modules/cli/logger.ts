@@ -1,14 +1,15 @@
 // Pluto - src/oob_modules/cli/logger.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
-import { green, yellow, red } from 'colors'
+import { green, yellow, red, blue } from 'colors'
 
 enum loggerType {
   OK,
   INFO,
   WARN,
   FAILED,
-  EXTENSION
+  EXTENSION,
+  DEBUG
 }
 
 function log (type: loggerType, message: string): void {
@@ -31,6 +32,10 @@ function log (type: loggerType, message: string): void {
 
     case loggerType.EXTENSION:
       console.log(`         -> ${message}`)
+      break
+
+    case loggerType.DEBUG:
+      console.log(`[ ${blue('DBUG')} ] ${message}`)
       break
 
     default:
