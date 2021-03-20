@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/client/Client.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/pluto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/shutdown.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configuration/config_example.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/config_example.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/cli/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/cli/logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oob_modules/misc/jst.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/oob_modules/misc/jst.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.34" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/release/start.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bot/modules/commands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Pluto\src\bot\modules\commands" />
       <recent name="D:\Programming\Pluto\scripts\build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -179,6 +175,11 @@
       <workItem from="1615723550716" duration="1204000" />
       <workItem from="1615744763054" duration="19585000" />
       <workItem from="1615899475586" duration="19340000" />
+      <workItem from="1615985036888" duration="5152000" />
+      <workItem from="1616007269529" duration="1336000" />
+      <workItem from="1616038579385" duration="1912000" />
+      <workItem from="1616069679307" duration="847000" />
+      <workItem from="1616078537895" duration="5820000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>

@@ -4,17 +4,9 @@
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
 import config from '../../../configuration/config'
 
-let cmdDir
-
-if (config.devOptions.debugBuild) {
-  cmdDir = './out/debug/bot/modules/commands/'
-} else {
-  cmdDir = './out/release/bot/modules/commands/'
-}
-
 export class CustomClient extends AkairoClient {
   commandHandler: CommandHandler
-  inhibitorHandler: InhibitorHandler
+  // inhibitorHandler: InhibitorHandler
   listenerHandler: ListenerHandler
 
   constructor () {
@@ -29,7 +21,7 @@ export class CustomClient extends AkairoClient {
 
     // Command Handler
     this.commandHandler = new CommandHandler(this, {
-      directory: cmdDir,
+      directory: `${__dirname}/../commands`,
       prefix: config.bot.prefix,
       allowMention: true
     })
@@ -38,19 +30,19 @@ export class CustomClient extends AkairoClient {
     /*
     // Inhibitor Handler
     this.inhibitorHandler = new InhibitorHandler(this, {
-      directory: './dist/bot/modules/inhibitors/'
+      directory: `${__dirname}/../inhibitor`
     })
 
     this.commandHandler.useInhibitorHandler(this.inhibitorHandler)
     this.inhibitorHandler.loadAll()
+     */
 
     // Listener Handler
     this.listenerHandler = new ListenerHandler(this, {
-      directory: './dist/bot/modules/listeners/'
+      directory: `${__dirname}/../listeners`
     })
 
     this.commandHandler.useListenerHandler(this.listenerHandler)
     this.listenerHandler.loadAll()
-     */
   }
 }

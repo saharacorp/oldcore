@@ -26,7 +26,7 @@ export default {
       	// Default discord data
         name: 'Pluto',
         image: 'https://media.discordapp.net/attachments/800944984500600855/803110348852953108/download_31.jpg?width=666&height=666',
-        link: 'https://github.com/brndnln/Pluto',
+        link: 'https://github.com/quinndoescode/Pluto',
         // Default color profiles
         defaultColors: {
           normal: '#202122',
@@ -44,7 +44,14 @@ export default {
         },
         status: 'online'
       }
-    }
+    },
+		commands: {
+    	msgreact: {
+    		emote: '👋',
+				enabled: false,
+				target: '753729496724799588'
+			}
+		}
   },
   // Development Options (do not touch unless you know what you are doing)
   devOptions: {

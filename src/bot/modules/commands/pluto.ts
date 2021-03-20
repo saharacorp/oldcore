@@ -12,13 +12,13 @@ class PlutoCommand extends Command {
     super('plutocore', {
       aliases: [
         'plutocore',
-				'pluto',
+        'pluto',
         'mydadtookmypusheen'
       ],
-			category: 'Meta',
-			description: {
+      category: 'Meta',
+      description: {
       	content: 'Shows that this bot was built on PlutoCore'
-			}
+      }
     })
   }
 
