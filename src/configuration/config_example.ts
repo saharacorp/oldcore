@@ -10,6 +10,8 @@ export default {
     prefix: '.',
     // Owner ID
     ownerid: '',
+    // Author ID
+    authorid: '',
     // Bot tokens
     token: '',
     canaryToken: '',
@@ -45,13 +47,13 @@ export default {
         status: 'online'
       }
     },
-		commands: {
+    commands: {
     	msgreact: {
     		emote: '👋',
-				enabled: false,
-				target: '753729496724799588'
-			}
-		}
+        enabled: false,
+        target: '753729496724799588'
+      }
+    }
   },
   // Development Options (do not touch unless you know what you are doing)
   devOptions: {
