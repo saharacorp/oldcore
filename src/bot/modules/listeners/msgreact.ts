@@ -4,7 +4,7 @@ import { Listener } from 'discord-akairo'
 import { Message } from 'discord.js'
 import config from '../../../configuration/config'
 
-export default class DigiFeetListener extends Listener {
+export default class MessageReactionListener extends Listener {
   constructor () {
     super('msgreact', {
       emitter: 'client',
