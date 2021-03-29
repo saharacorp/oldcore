@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/msgreact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/msgreact.ts" afterDir="false" />
     </list>
-    <list id="e14abb93-e094-49c4-be52-967312da4984" name="Changes by rauls" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
     <property name="ts.external.directory.path" value="yarn:package.json:typescript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -188,7 +185,9 @@
       <workItem from="1616700733915" duration="5091000" />
       <workItem from="1616814045916" duration="1672000" />
       <workItem from="1616892772668" duration="3432000" />
-      <workItem from="1616911163620" duration="6153000" />
+      <workItem from="1616911163620" duration="6571000" />
+      <workItem from="1616967152826" duration="3519000" />
+      <workItem from="1617001030593" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
@@ -287,7 +286,9 @@
     <MESSAGE value="Fix watermark with new name (and fix unused import in ping.ts)" />
     <MESSAGE value="Start work on arguments (again)" />
     <MESSAGE value="Update twitch in .setactivity examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update twitch in .setactivity examples" />
+    <MESSAGE value="Continue work on message reaction system" />
+    <MESSAGE value="Continue work on message reactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue work on message reactions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
