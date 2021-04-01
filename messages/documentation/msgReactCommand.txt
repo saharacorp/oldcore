@@ -1,0 +1,8 @@
+Message Reaction Command
+This command is used as a show-and-tell of what listeners do.
+This is an owner-only command
+
+Arguments:
+ * type - The type of the activity. Can be playing, listening, watching, streaming, and competing (bots cannot set a custom status)
+ * text - The text to be displayed
+ * url - Where to point the streaming url (only use on streaming status)
