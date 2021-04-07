@@ -1,8 +1,14 @@
 Message Reaction Command
-This command is used as a show-and-tell of what listeners do.
+This command is used as a show-and-tell of what listeners do. It will automatically react to messages sent by a particular person
 This is an owner-only command
 
 Arguments:
- * type - The type of the activity. Can be playing, listening, watching, streaming, and competing (bots cannot set a custom status)
- * text - The text to be displayed
- * url - Where to point the streaming url (only use on streaming status)
+ * subcommand - Action for the reactions
+   * help - Displays the help page for this command
+   * status - Displays status of message reactions
+   * toggle - Toggles message reactions
+   * setemote - Sets the emote to react with
+   * settarget - Sets the target to listen for
+ * value - Area for subcommands which require extra data
+   * setemote requires this to be an EmojiResolvable
+   * settarget requires this to be a mention. (To mention someone with only their ID, just surround the id with <@id goes here in between these braces>)

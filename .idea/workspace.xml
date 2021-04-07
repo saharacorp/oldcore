@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/documentation/msgReactCommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/messages/documentation/msgReactCommand.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/msgreact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/msgreact.ts" afterDir="false" />
     </list>
+    <list id="e8ebad25-9ca8-4330-8a59-139a8fbe75ba" name="Changes by roninprotheroe" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.34" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/release/configuration/config.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sex" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,7 +67,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="discord-application" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="yarn:package.json:typescript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -191,6 +194,12 @@
       <workItem from="1617073712513" duration="598000" />
       <workItem from="1617087870988" duration="52000" />
       <workItem from="1617107925087" duration="3527000" />
+      <workItem from="1617428391799" duration="1199000" />
+      <workItem from="1617485377589" duration="938000" />
+      <workItem from="1617510764809" duration="6026000" />
+      <workItem from="1617543131976" duration="2051000" />
+      <workItem from="1617623010634" duration="6016000" />
+      <workItem from="1617678735533" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
