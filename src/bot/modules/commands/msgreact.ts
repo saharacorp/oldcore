@@ -157,7 +157,7 @@ export default class MessageReactCommand extends Command {
             },
             timestamp: true
           })
-          return await message.channel.send('cum')
+          return await message.channel.send(emoteError)
         }
         config.bot.commands.msgreact.emote = args.value
         return await message.channel.send(genEmbed({
@@ -211,7 +211,7 @@ export default class MessageReactCommand extends Command {
         config.bot.commands.msgreact.target = user.id
         return await message.channel.send(genEmbed({
           title: '🧍 Message Reactions - Target set',
-          description: `Reaction target set to ${args.value} (\\${args.value})`,
+          description: `Reaction target set to ${args.value} (${user.id})`,
           color: '#a393bf',
           author: {
             name: config.bot.personalization.embed.name,

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+    <list default="true" id="3d4bb1fb-0b38-401d-9e5e-9e38a4b78c83" name="Default Changelist" comment="Continue work on message reactions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/documentation/msgReactCommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/messages/documentation/msgReactCommand.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bot/modules/commands/msgreact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bot/modules/commands/msgreact.ts" afterDir="false" />
     </list>
     <list id="e8ebad25-9ca8-4330-8a59-139a8fbe75ba" name="Changes by roninprotheroe" comment="" />
@@ -53,7 +51,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.yarnrc.yml&#10;D:/Programming/Pluto/src/configuration/config.ts" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.34" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sex" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -200,6 +198,9 @@
       <workItem from="1617543131976" duration="2051000" />
       <workItem from="1617623010634" duration="6016000" />
       <workItem from="1617678735533" duration="1213000" />
+      <workItem from="1617881371220" duration="37000" />
+      <workItem from="1617881426805" duration="2705000" />
+      <workItem from="1617900122065" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="💻 Sync with local (Main PC)">
       <created>1610604471262</created>
