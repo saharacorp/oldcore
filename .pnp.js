@@ -43,9 +43,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commander", "npm:7.0.0"],
             ["discord-akairo", "npm:8.1.0"],
             ["discord.js", "npm:12.5.1"],
+            ["libsodium-wrappers", "npm:0.7.9"],
             ["lolcatjs", "npm:2.4.0"],
             ["node-gyp", "npm:7.1.2"],
-            ["sodium", "npm:3.0.2"],
             ["standard", "npm:16.0.3"],
             ["ts-standard", "virtual:463ac95c456ef7ad45205c962b8d35386a5b9ae18e214e21d2a4bf263f82ac17c37622f8baefa77dd1b9871c0573a617201fa37dc851b7ce9f6a1aae11854d08#npm:10.0.0"],
             ["typeorm", "npm:0.2.31"],
@@ -2788,6 +2788,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["libsodium", [
+        ["npm:0.7.9", {
+          "packageLocation": "./.yarn/cache/libsodium-npm-0.7.9-98a3b621b1-fc5f9d0983.zip/node_modules/libsodium/",
+          "packageDependencies": [
+            ["libsodium", "npm:0.7.9"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["libsodium-wrappers", [
+        ["npm:0.7.9", {
+          "packageLocation": "./.yarn/cache/libsodium-wrappers-npm-0.7.9-be74b30f7d-cf87d39cc7.zip/node_modules/libsodium-wrappers/",
+          "packageDependencies": [
+            ["libsodium-wrappers", "npm:0.7.9"],
+            ["libsodium", "npm:0.7.9"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["line-by-line", [
         ["npm:0.1.6", {
           "packageLocation": "./.yarn/cache/line-by-line-npm-0.1.6-55a00c43f8-ee87fe8ca5.zip/node_modules/line-by-line/",
@@ -3479,9 +3498,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commander", "npm:7.0.0"],
             ["discord-akairo", "npm:8.1.0"],
             ["discord.js", "npm:12.5.1"],
+            ["libsodium-wrappers", "npm:0.7.9"],
             ["lolcatjs", "npm:2.4.0"],
             ["node-gyp", "npm:7.1.2"],
-            ["sodium", "npm:3.0.2"],
             ["standard", "npm:16.0.3"],
             ["ts-standard", "virtual:463ac95c456ef7ad45205c962b8d35386a5b9ae18e214e21d2a4bf263f82ac17c37622f8baefa77dd1b9871c0573a617201fa37dc851b7ce9f6a1aae11854d08#npm:10.0.0"],
             ["typeorm", "npm:0.2.31"],
@@ -3948,16 +3967,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-styles", "npm:4.3.0"],
             ["astral-regex", "npm:2.0.0"],
             ["is-fullwidth-code-point", "npm:3.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["sodium", [
-        ["npm:3.0.2", {
-          "packageLocation": "./.yarn/unplugged/sodium-npm-3.0.2-09348ff798/node_modules/sodium/",
-          "packageDependencies": [
-            ["sodium", "npm:3.0.2"],
-            ["node-addon-api", "npm:3.1.0"]
           ],
           "linkType": "HARD",
         }]
