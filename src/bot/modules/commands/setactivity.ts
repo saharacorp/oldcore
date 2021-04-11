@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/commands/setactivity.ts
+// PlutoCore - src/bot/modules/commands/setactivity.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'

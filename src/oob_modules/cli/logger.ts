@@ -1,4 +1,4 @@
-// Pluto - src/oob_modules/cli/logger.ts
+// PlutoCore - src/oob_modules/cli/logger.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { green, yellow, red, blue } from 'colors'

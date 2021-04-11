@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/commands/msgreact.ts
+// PlutoCore - src/bot/modules/commands/msgreact.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'

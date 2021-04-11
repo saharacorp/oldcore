@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/commands/help.ts
+// PlutoCore - src/bot/modules/commands/help.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'

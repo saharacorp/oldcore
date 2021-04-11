@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/utilities/EmbedGenerator.ts
+// PlutoCore - src/bot/modules/utilities/EmbedGenerator.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 // Import Necessary Libraries

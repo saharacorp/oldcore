@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/commands/setstatus.ts
+// PlutoCore - src/bot/modules/commands/setstatus.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'

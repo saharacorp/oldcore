@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/listeners/msgreact.ts
+// PlutoCore - src/bot/modules/listeners/msgreact.ts
 
 import { Listener } from 'discord-akairo'
 import { Message } from 'discord.js'

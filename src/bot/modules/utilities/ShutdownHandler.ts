@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/utilities/ShutdownHandler.ts
+// PlutoCore - src/bot/modules/utilities/ShutdownHandler.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { log, loggerType } from '../../../oob_modules/cli/logger'

@@ -1,4 +1,4 @@
-// Pluto - src/configuration/config.ts
+// PlutoCore - src/configuration/config.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 export default {

@@ -1,4 +1,4 @@
-// Pluto - bot/pluto.ts
+// PlutoCore - bot/pluto.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { CustomClient } from './modules/client/Client.js'

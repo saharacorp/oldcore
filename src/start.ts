@@ -1,4 +1,4 @@
-// Pluto - src/start.ts
+// PlutoCore - src/start.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { log, loggerType } from './oob_modules/cli/logger'

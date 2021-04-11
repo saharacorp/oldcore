@@ -1,4 +1,4 @@
-// Pluto - src/bot/modules/commands/shutdown.ts
+// PlutoCore - src/bot/modules/commands/shutdown.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'

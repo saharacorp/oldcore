@@ -1,4 +1,4 @@
-// Pluto - src/oob_modules/interfaces/Interfaces.ts
+// PlutoCore - src/oob_modules/interfaces/Interfaces.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { StringResolvable, ColorResolvable, EmbedFieldData } from 'discord.js'

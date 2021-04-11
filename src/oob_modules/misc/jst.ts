@@ -1,4 +1,4 @@
-// Pluto - src/oob_modules/misc/jst.ts
+// PlutoCore - src/oob_modules/misc/jst.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
 // Imports
