@@ -59,7 +59,6 @@ export default {
   },
   // Development Options (do not touch unless you know what you are doing)
   devOptions: {
-    debugBuild: false,
     canary: false
   }
 }
