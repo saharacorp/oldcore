@@ -1,7 +1,7 @@
 // PlutoCore - src/configuration/config.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
-import { pjson } from "../bot/pluto";
+import { pjson } from '../bot/pluto'
 
 export default {
   // Bot version
