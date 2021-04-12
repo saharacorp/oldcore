@@ -1,10 +1,10 @@
 {
-  "name": "pluto",
-  "version": "1.0.0",
-  "description": "A Discord Bot",
+  "name": "plutocore",
+  "version": "1.3.8",
+  "description": "A discord bot framework",
   "main": "out/release/start.js",
   "scripts": {
-    "test": "echo \"[Pluto] There is no current testing script\"",
+    "test": "echo \"[PlutoCore] There is no current testing script\"",
     "start": "node .",
     "start:debug": "node ./out/debug/start.js",
     "build:debug": "yarn ts-standard --fix; yarn tsc --outDir out/debug",
@@ -12,24 +12,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quinndoescode/Pluto.git"
+    "url": "git+https://github.com/quinndoescode/PlutoCore.git"
   },
   "keywords": [
     "discord",
     "bot",
-    "pluto"
+    "pluto",
+		"plutocore"
   ],
   "author": {
     "name": "Quinn Lane",
     "url": "https://brndnln.dev/",
     "email": "me@brndnln.dev"
   },
-  "license": "AGPL-3.0-or-later",
+  "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/quinndoescode/Pluto/issues",
+    "url": "https://github.com/quinndoescode/PlutoCore/issues",
     "email": "me@brndnln.dev"
   },
-  "homepage": "https://github.com/quinndoescode/Pluto#readme",
+  "homepage": "https://github.com/quinndoescode/PlutoCore#readme",
   "dependencies": {
     "@discordjs/opus": "^0.4.0",
     "colors": "^1.4.0",
