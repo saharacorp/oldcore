@@ -22,7 +22,7 @@ PlutoCore uses Yarn v2 (codename berry) instead of NPM
 5. Populate the relevent fields, mainly `bot.ownerid`, `bot.token`, and `bot.canaryToken` (canary token is optional but recommended if you are developing)
 
 ### Building Release
-1. Make sure `devOptions.debugBuild` and `devOptions.canary` are both set to false
+1. Make sure `devOptions.canary` is set to false
 2. Run `yarn run build`
 3. Run `yarn start`
 4. Profit
