@@ -1,9 +1,11 @@
 // PlutoCore - src/configuration/config.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
+import { pjson } from "../bot/pluto";
+
 export default {
   // Bot version
-  version: '1.3.8',
+  version: pjson.version,
   // Bot Configuration
   bot: {
     // Prefix
@@ -18,17 +20,17 @@ export default {
     // Bot Personalization
     personalization: {
       // The name of the discord bot
-      botName: 'Pluto',
+      botName: 'PlutoCore',
       // Show detailed error messages (documentation and syntax, error stacks, etc.)
       detailedErrorMessages: true,
       // Social preview image (gets embedded on .info)
-      socialPreviewImage: 'https://cdn.discordapp.com/attachments/820091333153914930/820821505948647434/plutobanner.png',
+      socialPreviewImage: 'https://media.discordapp.net/attachments/646131035272249344/831048144903995412/plutocorebanner.png',
       // Embed data
       embed: {
       	// Default discord data
-        name: 'Pluto',
+        name: 'PlutoCore',
         image: 'https://media.discordapp.net/attachments/800944984500600855/803110348852953108/download_31.jpg?width=666&height=666',
-        link: 'https://github.com/quinndoescode/Pluto',
+        link: 'https://github.com/quinndoescode/PlutoCore',
         // Default color profiles
         defaultColors: {
           normal: '#202122',
@@ -41,8 +43,8 @@ export default {
       // Presence data on bot startup
       presenceData: {
         activity: {
-          type: 'COMPETING',
-          name: 'the olympic games | .help'
+          type: 'LISTENING',
+          name: 'the screams of the void'
         },
         status: 'online'
       }
