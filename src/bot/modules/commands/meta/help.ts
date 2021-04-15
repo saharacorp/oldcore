@@ -3,9 +3,9 @@
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'
-import { genEmbed } from '../utilities/EmbedGenerator'
-import config from '../../../configuration/config'
-import { log, loggerType } from '../../../oob_modules/cli/logger'
+import { genEmbed } from '../../utilities/EmbedGenerator'
+import config from '../../../../configuration/config'
+import { log, loggerType } from '../../../../oob_modules/cli/logger'
 
 export default class HelpCommand extends Command {
   constructor () {

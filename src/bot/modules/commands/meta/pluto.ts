@@ -2,10 +2,10 @@
 // Written by Quinn Lane - https://brndnln.dev/
 
 import { Command } from 'discord-akairo'
-import { genEmbed } from '../utilities/EmbedGenerator'
-import { Embed } from '../../../oob_modules/interfaces/Interfaces'
+import { genEmbed } from '../../utilities/EmbedGenerator'
+import { Embed } from '../../../../oob_modules/interfaces/Interfaces'
 import { Message } from 'discord.js'
-import config from '../../../configuration/config'
+import config from '../../../../configuration/config'
 
 class PlutoCommand extends Command {
   constructor () {

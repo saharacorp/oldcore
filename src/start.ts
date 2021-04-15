@@ -9,6 +9,8 @@ import config from './configuration/config'
 import { getArrayPos, rainbow } from './oob_modules/misc/jst'
 import { readFileSync } from 'fs'
 
+export const pjson = JSON.parse(readFileSync(`${__dirname}/../../package.json`, { encoding: 'utf-8' }))
+
 const args = process.argv.slice(2)
 let bannerPos: number
 

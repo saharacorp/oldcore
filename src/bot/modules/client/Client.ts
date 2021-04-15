@@ -6,7 +6,7 @@ import config from '../../../configuration/config'
 
 export class CustomClient extends AkairoClient {
   commandHandler: CommandHandler
-  // inhibitorHandler: InhibitorHandler
+  inhibitorHandler: InhibitorHandler
   listenerHandler: ListenerHandler
 
   constructor () {
@@ -27,15 +27,13 @@ export class CustomClient extends AkairoClient {
     })
     this.commandHandler.loadAll()
 
-    /*
     // Inhibitor Handler
     this.inhibitorHandler = new InhibitorHandler(this, {
-      directory: `${__dirname}/../inhibitor`
+      directory: `${__dirname}/../inhibitors`
     })
 
     this.commandHandler.useInhibitorHandler(this.inhibitorHandler)
     this.inhibitorHandler.loadAll()
-     */
 
     // Listener Handler
     this.listenerHandler = new ListenerHandler(this, {

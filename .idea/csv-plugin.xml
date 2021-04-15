@@ -17,10 +17,24 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\bot\modules\commands\meta\info.ts">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\bot\modules\commands\msgreact.ts">
           <value>
             <Attribute>
               <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\bot\modules\commands\ping.ts">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>

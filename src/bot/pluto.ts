@@ -8,8 +8,6 @@ import { readFileSync } from 'fs'
 
 const client = new CustomClient()
 
-const pjson = JSON.parse(readFileSync(`${__dirname}/../../../package.json`, { encoding: 'utf-8' }))
-
 client.on('ready', () => {
   // @ts-expect-error
   log(loggerType.OK, `Logged in as ${client.user.tag}`)
@@ -38,6 +36,5 @@ export default function start (): void {
 }
 
 export {
-  client,
-  pjson
+  client
 }

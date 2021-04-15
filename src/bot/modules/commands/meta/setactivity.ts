@@ -3,10 +3,10 @@
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'
-import { client } from '../../pluto'
-import { genEmbed } from '../utilities/EmbedGenerator'
+import { client } from '../../../pluto'
+import { genEmbed } from '../../utilities/EmbedGenerator'
 import { readFileSync } from 'fs'
-import config from '../../../configuration/config'
+import config from '../../../../configuration/config'
 
 const types = [
   'playing',

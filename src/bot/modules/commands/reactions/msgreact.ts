@@ -3,9 +3,9 @@
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'
-import { genEmbed } from '../utilities/EmbedGenerator'
+import { genEmbed } from '../../utilities/EmbedGenerator'
 import { readFileSync } from 'fs'
-import config from '../../../configuration/config'
+import config from '../../../../configuration/config'
 
 const subcommands = [
   'help',

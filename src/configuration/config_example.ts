@@ -1,11 +1,9 @@
 // PlutoCore - src/configuration/config.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
-import { pjson } from '../bot/pluto'
-
 export default {
   // Bot version
-  version: pjson.version,
+  version: '1.3.8',
   // Bot Configuration
   bot: {
     // Prefix

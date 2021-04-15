@@ -3,8 +3,8 @@
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'
-import { genEmbed } from '../utilities/EmbedGenerator'
-import config from '../../../configuration/config'
+import { genEmbed } from '../../utilities/EmbedGenerator'
+import config from '../../../../configuration/config'
 
 class ToggleDEMCommand extends Command {
   constructor () {

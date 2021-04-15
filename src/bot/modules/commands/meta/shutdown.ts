@@ -3,12 +3,12 @@
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'
-import { log, loggerType } from '../../../oob_modules/cli/logger'
-import { genEmbed } from '../utilities/EmbedGenerator'
-import ShutdownHandler from '../utilities/ShutdownHandler'
-import config from '../../../configuration/config'
-import { client } from '../../pluto'
-import { getHumanReadableDateTime } from '../../../oob_modules/misc/jst'
+import { log, loggerType } from '../../../../oob_modules/cli/logger'
+import { genEmbed } from '../../utilities/EmbedGenerator'
+import ShutdownHandler from '../../utilities/ShutdownHandler'
+import config from '../../../../configuration/config'
+import { client } from '../../../pluto'
+import { getHumanReadableDateTime } from '../../../../oob_modules/misc/jst'
 
 export default class ShutdownCommand extends Command {
   constructor () {
@@ -19,6 +19,7 @@ export default class ShutdownCommand extends Command {
         'majorlyfuckoff'
       ],
       ownerOnly: true,
+      category: 'Meta',
       description: {
         content: 'Full shutdown of the bot',
         usage: 'shutdown'
