@@ -1,7 +1,9 @@
 // PlutoCore - src/configuration/config.ts
 // Written by Quinn Lane - https://brndnln.dev/
 
-export default {
+import { Configuration } from '../oob_modules/interfaces/Interfaces'
+
+const config: Configuration = {
   // Bot version
   version: '1.3.8',
   // Bot Configuration
@@ -60,3 +62,5 @@ export default {
     canary: false
   }
 }
+
+export default config
