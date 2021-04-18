@@ -12,8 +12,8 @@ const config: Configuration = {
     prefix: '.',
     // Owner ID
     ownerid: '',
-    // Author ID
-    authorid: '',
+    // Authors
+    authors: '',
     // Bot tokens
     token: '',
     canaryToken: '',

@@ -9,7 +9,7 @@ interface Configuration {
   bot: {
   	prefix: string
     ownerid: string | string[]
-    authorid: string | number | Array<string | number> | undefined | null
+    authors: string | number | Array<string | number> | undefined | null
     token: string
     canaryToken: string | undefined
     personalization: {
