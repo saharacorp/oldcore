@@ -33,7 +33,7 @@ export class CustomClient extends AkairoClient {
     })
 
     this.commandHandler.useInhibitorHandler(this.inhibitorHandler)
-    this.inhibitorHandler.loadAll()
+    this.inhibitorHandler.reloadAll()
 
     // Listener Handler
     this.listenerHandler = new ListenerHandler(this, {
@@ -41,6 +41,6 @@ export class CustomClient extends AkairoClient {
     })
 
     this.commandHandler.useListenerHandler(this.listenerHandler)
-    this.listenerHandler.loadAll()
+    this.listenerHandler.reloadAll()
   }
 }
