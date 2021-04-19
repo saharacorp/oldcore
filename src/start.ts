@@ -68,34 +68,34 @@ const options = program.opts()
 
 if (options.debug) console.log(options)
 if (options.showBanners) {
-  console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
+  console.log(readFileSync(`${__dirname}/../../messages/title.txt`, { encoding: 'utf-8' }))
   console.log('\n       List of all possible banners:\n')
   banners.forEach(value => {
     bannerPos = getArrayPos(value, banners) + 1
     console.log(`       [${bannerPos.toString()} of ${banners.length}] ${value}:`)
     if (options.gaytime) {
-      rainbow(readFileSync(`./messages/banners/${value}.txt`, { encoding: 'utf-8' }))
+      rainbow(readFileSync(`${__dirname}/../../messages/banners/${value}.txt`, { encoding: 'utf-8' }))
     } else {
-      console.log(readFileSync(`./messages/banners/${value}.txt`, { encoding: 'utf-8' }))
+      console.log(readFileSync(`${__dirname}/../../messages/banners/${value}.txt`, { encoding: 'utf-8' }))
     }
   })
   process.exit(0)
 }
 if (options.banner !== 'random') {
   if (options.gaytime) {
-    rainbow(`\n${readFileSync(`./messages/banners/${options.banner}.txt`, { encoding: 'utf-8' })}`)
-    rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
+    rainbow(`\n${readFileSync(`${__dirname}/../../messages/banners/${options.banner}.txt`, { encoding: 'utf-8' })}`)
+    rainbow(readFileSync(`${__dirname}/../../messages/title.txt`, { encoding: 'utf-8' }))
   } else {
-    console.log(`\n${readFileSync(`./messages/banners/${options.banner}.txt`, { encoding: 'utf-8' })}`)
-    console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
+    console.log(`\n${readFileSync(`${__dirname}/../../messages/banners/${options.banner}.txt`, { encoding: 'utf-8' })}`)
+    console.log(readFileSync(`${__dirname}/../../messages/title.txt`, { encoding: 'utf-8' }))
   }
 } else {
   if (options.gaytime) {
-    rainbow(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
-    rainbow('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
+    rainbow(`\n${readFileSync(`${__dirname}/../../messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
+    rainbow(readFileSync(`${__dirname}/../../messages/title.txt`, { encoding: 'utf-8' }))
   } else {
-    console.log(`\n${readFileSync(`./messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
-    console.log('\n                           THE PLUTO DISCORD BOT\n       Written by Quinn Lane - https://brndnln.dev/ https://pluto.rip/\n')
+    console.log(`\n${readFileSync(`${__dirname}/../../messages/banners/${banners[Math.floor(Math.random() * banners.length)]}.txt`, { encoding: 'utf-8' })}`)
+    console.log(readFileSync(`${__dirname}/../../messages/title.txt`, { encoding: 'utf-8' }))
   }
 }
 if (!options.start) process.exit(0)
