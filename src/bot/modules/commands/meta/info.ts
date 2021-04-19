@@ -75,19 +75,19 @@ export default class InfoCommand extends Command {
       ]
     })
 
-    if (Array.isArray(config.bot.authorid)) {
-      switch (config.bot.authorid.length) {
+    if (Array.isArray(config.bot.authors)) {
+      switch (config.bot.authors.length) {
         case 1:
-          info.setDescription(`${config.bot.personalization.botName} is created by <@${config.bot.authorid[0]}>`)
+          info.setDescription(`${config.bot.personalization.botName} is created by <@${config.bot.authors[0]}>`)
           break
 
         case 2:
-          info.setDescription(`${config.bot.personalization.botName} is created by <@${config.bot.authorid[0]}> and <@${config.bot.authorid[1]}>`)
+          info.setDescription(`${config.bot.personalization.botName} is created by <@${config.bot.authors[0]}> and <@${config.bot.authors[1]}>`)
           break
 
         default:
           let newAuthorArray: Array<string | number> = []
-          config.bot.authorid.forEach((v) => {
+          config.bot.authors.forEach((v) => {
           	if (typeof v === 'number') {
               newAuthorArray = [...newAuthorArray, `<@${v.toString()}>`]
             } else {
@@ -110,10 +110,10 @@ export default class InfoCommand extends Command {
           break
       }
     } else {
-    	if (config.bot.authorid === '' || config.bot.authorid === undefined || config.bot.authorid === null) {
+    	if (config.bot.authors === '' || config.bot.authors === undefined || config.bot.authors === null) {
         info.setDescription(`${config.bot.personalization.botName} is created by no one, apparently. The bot owner forgot to populate the author ID field (\`config.bot.authorid\`).`)
       } else {
-        info.setDescription(`${config.bot.personalization.botName} is created by <@${config.bot.authorid}>`)
+        info.setDescription(`${config.bot.personalization.botName} is created by <@${config.bot.authors}>`)
       }
     }
 
