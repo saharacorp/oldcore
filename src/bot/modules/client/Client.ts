@@ -25,7 +25,7 @@ export class CustomClient extends AkairoClient {
       prefix: config.bot.prefix,
       allowMention: true
     })
-    this.commandHandler.loadAll()
+    this.commandHandler.reloadAll()
 
     // Inhibitor Handler
     this.inhibitorHandler = new InhibitorHandler(this, {
