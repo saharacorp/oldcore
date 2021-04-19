@@ -16,20 +16,31 @@ let bannerPos: number
 
 const banners = [
   '3d-diagonal',
+  'acrobatic',
   'alpha',
   'ansi-shadow',
+  'arrows',
   'big',
+  'bigmoney',
   'blocks',
+  'bolger',
+  'broadway',
+  'cards',
+  'chiseled',
+  'crazy',
   'doh',
   'doom',
+  'fire',
   'graffiti',
   'impossible',
   'isometric',
   'modular',
   'ogre',
+  'patorjk',
   'slant',
   'slant-relief',
-  'train'
+  'train',
+  'twisted'
 ]
 
 const program = new Command()
