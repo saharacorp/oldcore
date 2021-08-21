@@ -1,5 +1,5 @@
 // PlutoCore - src/oob_modules/misc/jst.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 // Imports
 import lolcatjs from 'lolcatjs'

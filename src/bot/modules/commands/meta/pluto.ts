@@ -1,5 +1,5 @@
 // PlutoCore - src/bot/modules/commands/pluto.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { Command } from 'discord-akairo'
 import { genEmbed } from '../../utilities/EmbedGenerator'

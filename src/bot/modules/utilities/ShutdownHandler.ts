@@ -1,5 +1,5 @@
 // PlutoCore - src/bot/modules/utilities/ShutdownHandler.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { log, loggerType } from '../../../oob_modules/cli/logger'
 

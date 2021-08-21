@@ -1,5 +1,5 @@
 // PlutoCore - src/oob_modules/types/Types.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { FileOptions, MessageAttachment } from 'discord.js'
 

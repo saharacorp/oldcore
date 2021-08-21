@@ -1,10 +1,9 @@
 // PlutoCore - bot/pluto.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { CustomClient } from './modules/client/Client.js'
 import config from '../configuration/config.js'
 import { log, loggerType } from '../oob_modules/cli/logger'
-import { readFileSync } from 'fs'
 
 const client = new CustomClient()
 
@@ -25,6 +24,11 @@ client.on('ready', () => {
   }
   // @ts-expect-error
   client.user.setPresence(config.bot.personalization.presenceData)
+})
+
+client.on('message', message => {
+  log(loggerType.DEBUG, 'Message was sent in a channel the bot monitored!')
+  console.log(message)
 })
 
 export default function start (): void {

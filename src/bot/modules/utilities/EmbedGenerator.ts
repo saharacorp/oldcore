@@ -1,5 +1,5 @@
 // PlutoCore - src/bot/modules/utilities/EmbedGenerator.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 // Import Necessary Libraries
 import { MessageEmbed } from 'discord.js'

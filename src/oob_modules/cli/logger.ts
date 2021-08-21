@@ -1,5 +1,5 @@
 // PlutoCore - src/oob_modules/cli/logger.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { green, yellow, red, blue } from 'colors'
 

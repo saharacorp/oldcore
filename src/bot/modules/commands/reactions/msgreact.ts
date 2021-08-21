@@ -1,5 +1,5 @@
 // PlutoCore - src/bot/modules/commands/msgreact.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { Command } from 'discord-akairo'
 import { Message } from 'discord.js'
