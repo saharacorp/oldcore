@@ -2,7 +2,7 @@
 
 import { Listener } from 'discord-akairo'
 import { Message } from 'discord.js'
-import config from '../../../configuration/config'
+import config from '../../../../configuration/config'
 
 export default class MessageReactionListener extends Listener {
   constructor () {
