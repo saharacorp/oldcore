@@ -3,6 +3,7 @@
     <package-json value="$PROJECT_DIR$/package.json" />
     <command value="start" />
     <node-interpreter value="project" />
+    <package-manager value="$USER_HOME$/.nvm/versions/node/v16.1.0/lib/node_modules/yarn" />
     <envs />
     <method v="2" />
   </configuration>

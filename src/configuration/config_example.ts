@@ -1,5 +1,5 @@
 // PlutoCore - src/configuration/config.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { Configuration } from '../oob_modules/interfaces/Interfaces'
 

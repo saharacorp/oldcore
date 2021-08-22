@@ -1,5 +1,5 @@
 // PlutoCore - bot/oob_modules/client/Client.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler } from 'discord-akairo'
 import config from '../../../configuration/config'

@@ -1,5 +1,5 @@
 // PlutoCore - src/oob_modules/interfaces/Interfaces.ts
-// Written by Quinn Lane - https://brndnln.dev/
+// Written by Sam - https://quinnlane.dev/
 
 import { StringResolvable, ColorResolvable, EmbedFieldData, PresenceStatusData } from 'discord.js'
 import { DiscordEmbedFile, DiscordEmbedTime } from '../types/Types'
